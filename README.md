@@ -1,7 +1,14 @@
 <!-- ===================== JEROME PRAKASH L — PROFILE README ===================== -->
 
-<h1 align="center">⚡ Jerome Prakash L</h1>
-<h3 align="center">Computer Science Engineering Student · Building AI Agents, Automation & Computer Vision</h3>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e0ff,100:0066ff&height=180&section=header&text=Jerome%20Prakash%20L&fontColor=ffffff&fontSize=42&animation=fadeIn&fontAlignY=35&desc=Building%20AI%20Agents%20%C2%B7%20Automation%20%C2%B7%20Computer%20Vision&descAlignY=58&descSize=18" alt="header banner" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/JEROME-PRAKASH-L">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00E0FF&center=true&vCenter=true&width=600&lines=AI-Agent+%26+Automation+Builder;Computer+Vision+Explorer;Turning+manual+work+into+automations;Always+Learning.+Always+Building." alt="Typing SVG" />
+  </a>
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=JEROME-PRAKASH-L&label=Profile%20views&color=00e0ff&style=flat-square" alt="profile views" />
@@ -109,6 +116,14 @@
 
 ---
 
+### 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=JEROME-PRAKASH-L&theme=algolia&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="trophies" />
+</p>
+
+---
+
 ### 🐍 Contribution Snake
 
 <p align="center">
@@ -123,3 +138,7 @@
 
 <p align="center"><i>"Turning repetitive manual tasks into reliable automations — one agent at a time."</i></p>
 <p align="center"><b>⚡ Always Learning. Always Building. Always Automating. ⚡</b></p>
+
+<p align="center"><sub>⭐ Thanks for visiting — let's build something innovative together!</sub></p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066ff,100:00e0ff&height=120&section=footer" alt="footer banner" width="100%" />
