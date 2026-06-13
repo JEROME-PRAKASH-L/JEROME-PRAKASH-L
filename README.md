@@ -35,6 +35,39 @@
 
 ---
 
+### `jerome@dev:~$ python3 innovator.py`
+
+```python
+class JeromePrakash:
+    def __init__(self):
+        self.role          = "CSE Student | AI-Agent & Automation Builder"
+        self.mission       = "Use code & AI to push humanity forward 🚀"
+        self.thinking      = "First Principles"          # break problems to the core
+        self.current_focus = ["AI Agents", "Computer Vision", "Automation"]
+        self.dreaming_of   = "Space-Tech & the next giant leap 🛰️"
+
+    def build(self, idea):
+        while not idea.shipped:
+            idea.iterate(fast=True)   # move fast, learn faster
+        return "🚀 Launched."
+
+me = JeromePrakash()
+print(me.build(idea="the future"))
+# >>> 🚀 Launched.
+```
+
+---
+
+### 🚀 Mission Control
+
+```
+[ VISION ]   Build AI & automation that frees humans to do their best work.
+[ APPROACH ] First-principles thinking · ship fast · iterate relentlessly.
+[ GOAL ]     Turn bold ideas into real, working systems — one launch at a time.
+```
+
+---
+
 ### `jerome@dev:~$ cat /etc/skills.conf`
 
 ```
@@ -116,10 +149,18 @@
 
 ---
 
+### 💬 Dev Quote of the Day
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=algolia" alt="dev quote" />
+</p>
+
+---
+
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=JEROME-PRAKASH-L&theme=algolia&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=JEROME-PRAKASH-L&theme=algolia&margin-w=8&margin-h=8&column=7" alt="trophies" />
 </p>
 
 ---
