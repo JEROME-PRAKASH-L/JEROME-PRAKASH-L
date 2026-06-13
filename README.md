@@ -112,19 +112,6 @@
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=JEROME-PRAKASH-L&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JEROME-PRAKASH-L&layout=compact&theme=tokyonight"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=JEROME-PRAKASH-L&theme=tokyonight" alt="GitHub Streak" />
-</p>
-
----
-
 ### 🐍 Contribution Snake
 
 <p align="center">
