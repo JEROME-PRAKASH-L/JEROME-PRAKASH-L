@@ -1,12 +1,12 @@
 <!-- ===================== JEROME PRAKASH L — PROFILE README ===================== -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e0ff,100:0066ff&height=180&section=header&text=Jerome%20Prakash%20L&fontColor=ffffff&fontSize=42&animation=fadeIn&fontAlignY=35&desc=Building%20AI%20Agents%20%C2%B7%20Automation%20%C2%B7%20Computer%20Vision&descAlignY=58&descSize=18" alt="header banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e0ff,100:0066ff&height=180&section=header&text=Jerome%20Prakash%20L&fontColor=ffffff&fontSize=42&animation=fadeIn&fontAlignY=35&desc=AI%20Agents%20%C2%B7%20Automation%20%C2%B7%20Computer%20Vision&descAlignY=58&descSize=18" alt="header banner" />
 </p>
 
 <p align="center">
   <a href="https://github.com/JEROME-PRAKASH-L">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00E0FF&center=true&vCenter=true&width=600&lines=AI-Agent+%26+Automation+Builder;Computer+Vision+Explorer;Turning+manual+work+into+automations;Always+Learning.+Always+Building." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00E0FF&center=true&vCenter=true&width=650&lines=AI+Agent+Builder;Automation+Developer;Computer+Vision+Explorer;Always+Learning.+Always+Building." alt="Typing SVG" />
   </a>
 </p>
 
@@ -25,46 +25,33 @@
 │  Name      :  Jerome Prakash L                                │
 │  Role      :  CSE Student | AI-Agent & Automation Builder     │
 │  Location  :  Chennai, Tamil Nadu, India                      │
-│  Mission   :  Turn repetitive manual work into reliable       │
-│               automations.                                    │
+│  Building  :  Practical AI tools, workflow automations &      │
+│               developer productivity systems.                 │
 │  Status    :  Seeking a Software / AI Engineering Internship  │
 └──────────────────────────────────────────────────────────────┘
 ```
 
-> 🚀 Self-starter with a public project portfolio — passionate about AI, automation, and innovation, and eager to learn production engineering practices.
-
 ---
 
-### `jerome@dev:~$ python3 innovator.py`
+### 🔨 What I'm Building Now
 
-```python
-class JeromePrakash:
-    def __init__(self):
-        self.role          = "CSE Student | AI-Agent & Automation Builder"
-        self.mission       = "Use code & AI to push humanity forward 🚀"
-        self.thinking      = "First Principles"          # break problems to the core
-        self.current_focus = ["AI Agents", "Computer Vision", "Automation"]
-        self.dreaming_of   = "Space-Tech & the next giant leap 🛰️"
-
-    def build(self, idea):
-        while not idea.shipped:
-            idea.iterate(fast=True)   # move fast, learn faster
-        return "🚀 Launched."
-
-me = JeromePrakash()
-print(me.build(idea="the future"))
-# >>> 🚀 Launched.
-```
+- 🤖 **AI Daily Inbox Recap Agent**
+- 💬 **Telegram AI Coding Agent** (OpenClaw)
+- 👁️ **Computer Vision** hand-tracking projects
+- ⚙️ **Automation tools** using Python and APIs
+- 🌐 **Developer productivity** systems
 
 ---
 
 ### 🚀 Mission Control
 
-```
-[ VISION ]   Build AI & automation that frees humans to do their best work.
-[ APPROACH ] First-principles thinking · ship fast · iterate relentlessly.
-[ GOAL ]     Turn bold ideas into real, working systems — one launch at a time.
-```
+| Focus | Details |
+|---|---|
+| **Vision** | Build AI systems that save human time |
+| **Approach** | First-principles thinking + fast prototyping |
+| **Current Work** | AI Agents, Automation, Computer Vision |
+| **Goal** | Turn ideas into real working products |
+| **Status** | Open to internships and collaborations |
 
 ---
 
@@ -76,7 +63,6 @@ print(me.build(idea="the future"))
                     Gmail automation · Google Calendar workflows · RAG concepts
 [ TOOLS ]          Git · GitHub · WSL2 / Linux · CLI tooling · REST APIs · Telegram bots
 [ COMPUTER VISION ] Hand & gesture detection · Real-time human-computer interaction
-[ COMMUNICATION ]  Technical writing · Documentation · Presentations · Content strategy
 ```
 
 #### 🧰 Languages and Tools
@@ -89,20 +75,13 @@ print(me.build(idea="the future"))
 
 ### `jerome@dev:~$ ls ~/projects`
 
-```
-📂 ai-daily-inbox-recap/      AI Daily Inbox Recap Automation
-📂 openclaw-telegram-agent/   Telegram-Based AI Coding Agent (OpenClaw)
-```
-
 **🤖 AI Daily Inbox Recap Automation** — `Python · Gmail API · Google Calendar · AI Agents`
-- Built an AI-powered automation that aggregates the last 24 hours of Gmail activity and pulls in relevant calendar context to surface what matters each morning.
+- Aggregates the last 24 hours of Gmail activity and pulls in relevant calendar context to surface what matters each morning.
 - Extracts and prioritizes action items, then delivers a clean summary email — cutting daily manual inbox triage.
-- End-to-end productivity pipeline using AI agents/connectors, prompt engineering, and Google Workspace APIs.
 
 **💬 Telegram-Based AI Coding Agent (OpenClaw)** — `WSL2 · Telegram Bot · JavaScript · HTML/CSS`
-- Set up an AI coding-agent workflow on WSL2 with Telegram as the natural-language instruction interface.
-- The agent receives coding requests over Telegram and generates project files directly on the local machine.
-- Validated end-to-end by generating a functional login page from a single chat instruction.
+- An AI coding-agent workflow on WSL2 with Telegram as the natural-language instruction interface.
+- Receives coding requests over Telegram and generates project files directly on the local machine.
 
 ---
 
@@ -130,37 +109,15 @@ print(me.build(idea="the future"))
 
 ---
 
-### `jerome@dev:~$ netstat -connections`
-
-```
-[ACTIVE CONNECTIONS]
-  → Email     :  prakashjerome152@gmail.com
-  → LinkedIn  :  linkedin.com/in/jerome-prakash-975a15326
-  → GitHub    :  github.com/JEROME-PRAKASH-L
-
-[STATUS]: Open for collaboration, internships & all things AI/automation
-```
-
-<p align="left">
-  <a href="https://linkedin.com/in/jerome-prakash-975a15326" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:prakashjerome152@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://github.com/JEROME-PRAKASH-L" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-</p>
-
----
-
-### 💬 Dev Quote of the Day
+### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=algolia" alt="dev quote" />
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=JEROME-PRAKASH-L&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="github stats" />
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JEROME-PRAKASH-L&layout=compact&theme=tokyonight" alt="top languages" />
 </p>
 
----
-
-### 🏆 GitHub Trophies
-
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=JEROME-PRAKASH-L&theme=algolia&margin-w=8&margin-h=8&column=7" alt="trophies" />
+  <img src="https://streak-stats.demolab.com?user=JEROME-PRAKASH-L&theme=tokyonight" alt="github streak" />
 </p>
 
 ---
@@ -177,9 +134,26 @@ print(me.build(idea="the future"))
 
 ---
 
-<p align="center"><i>"Turning repetitive manual tasks into reliable automations — one agent at a time."</i></p>
-<p align="center"><b>⚡ Always Learning. Always Building. Always Automating. ⚡</b></p>
+### 🤝 Let's Connect
 
-<p align="center"><sub>⭐ Thanks for visiting — let's build something innovative together!</sub></p>
+I'm open to **software engineering, AI engineering, and automation internships**.
+
+I'm interested in: **AI Agents · Automation · Computer Vision · Python Development · Full-stack Projects**
+
+<p align="left">
+  <a href="https://linkedin.com/in/jerome-prakash-975a15326" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:prakashjerome152@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://github.com/JEROME-PRAKASH-L" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+</p>
+
+```
+📥  Email     :  prakashjerome152@gmail.com
+🔗  LinkedIn  :  linkedin.com/in/jerome-prakash-975a15326
+💻  GitHub    :  github.com/JEROME-PRAKASH-L
+```
+
+---
+
+<p align="center"><b>⚡ Always Learning. Always Building. Always Automating. ⚡</b></p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066ff,100:00e0ff&height=120&section=footer" alt="footer banner" width="100%" />
