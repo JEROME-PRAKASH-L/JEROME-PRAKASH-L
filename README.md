@@ -125,5 +125,17 @@
 
 ---
 
+### 🐍 Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JEROME-PRAKASH-L/JEROME-PRAKASH-L/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JEROME-PRAKASH-L/JEROME-PRAKASH-L/output/github-snake.svg" />
+    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/JEROME-PRAKASH-L/JEROME-PRAKASH-L/output/github-snake.svg" />
+  </picture>
+</p>
+
+---
+
 <p align="center"><i>"Turning repetitive manual tasks into reliable automations — one agent at a time."</i></p>
 <p align="center"><b>⚡ Always Learning. Always Building. Always Automating. ⚡</b></p>
