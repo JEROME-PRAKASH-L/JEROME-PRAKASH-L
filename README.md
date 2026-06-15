@@ -196,11 +196,23 @@ $ ai-stack --status
 
 ### 🏙️ Contribution Skyline — Wall Street
 
+```
+🏙️  ▁▃▅█▇▆█▅▇█▆▅█▇▆█▅▇█▆▅█▇▆█▅▇█▆▅█▇▆█▅▇█▆▅█▇▆  🏙️
+        W A L L   S T R E E T   —   B U I L T   B Y   C O D E
+```
+
 > My contributions rendered as a 3D city of money-green towers — they **rise as I build**. 🏗️💵
 
 <p align="center">
   <img src="./profile-3d-contrib/profile-green-animate.svg" alt="animated 3D contribution skyline" />
 </p>
+
+<!-- 🏙️ ROTATING 3D CITY: export your skyline as a GIF from https://skyline.github.com/JEROME-PRAKASH-L/2026
+     then drop the file in this repo and replace the line below to embed your real rotating city.
+<p align="center">
+  <img src="./skyline.gif" alt="rotating 3D contribution city" width="600" />
+</p>
+-->
 
 <details>
 <summary><b>🧱 Switch view → block-city skyline</b></summary>
