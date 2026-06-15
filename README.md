@@ -84,6 +84,7 @@
 [ LANGUAGES ]       Python · JavaScript · HTML · CSS
 [ AI & AUTOMATION ] AI agents & connectors · Prompt engineering · Workflow automation
                     Gmail automation · Google Calendar workflows · RAG concepts
+[ AI COPILOTS ]     Claude · Codex · GitHub Copilot · ChatGPT
 [ TOOLS ]           Git · GitHub · WSL2 / Linux · CLI tooling · REST APIs · Telegram bots
 [ VISION ]          Hand & gesture detection · Real-time human-computer interaction
 ```
@@ -93,6 +94,28 @@
 </p>
 
 </details>
+
+---
+
+### 🛸 AI Copilots in the Cockpit
+
+> I don't just build AI — I **build with AI**. These are the copilots I pair with daily to ship faster.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/OpenAI%20Codex-412991?style=for-the-badge&logo=openai&logoColor=white" alt="Codex" />
+  <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot" />
+  <img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" />
+</p>
+
+```
+$ ai-stack --status
+  ✓ Claude          ready   ·  reasoning · code · agents
+  ✓ Codex           ready   ·  code generation
+  ✓ GitHub Copilot  ready   ·  inline autocomplete
+  ✓ ChatGPT         ready   ·  brainstorming · prototyping
+[ STATUS ]  4 copilots online — shipping at orbital velocity 🚀
+```
 
 ---
 
