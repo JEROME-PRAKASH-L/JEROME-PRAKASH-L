@@ -46,6 +46,18 @@
 
 ---
 
+### 🧠 Operating Principles
+
+```
+01 ·  Reason from first principles — not by analogy.
+02 ·  Ship fast, then iterate relentlessly.
+03 ·  Automate the boring. Focus energy on the hard.
+04 ·  Build things people actually use.
+05 ·  Stay curious. Learn in public. Compound daily.
+```
+
+---
+
 ### 🛰️ Live Build Log
 
 <details open>
@@ -155,6 +167,14 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JEROME-PRAKASH-L/JEROME-PRAKASH-L/output/github-snake.svg" />
     <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/JEROME-PRAKASH-L/JEROME-PRAKASH-L/output/github-snake.svg" />
   </picture>
+</p>
+
+---
+
+### 🌌 3D Contribution Galaxy
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
 </p>
 
 ---
