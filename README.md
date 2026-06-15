@@ -194,11 +194,23 @@ $ ai-stack --status
 
 ---
 
-### 🌌 3D Contribution Galaxy
+### 🏙️ Contribution Skyline — Wall Street
+
+> My contributions rendered as a 3D city of money-green towers — they **rise as I build**. 🏗️💵
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
+  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="animated 3D contribution skyline" />
 </p>
+
+<details>
+<summary><b>🧱 Switch view → block-city skyline</b></summary>
+<br/>
+<p align="center">
+  <img src="./profile-3d-contrib/profile-gitblock.svg" alt="block city contribution graph" />
+</p>
+</details>
+
+<sub>🛰️ Want to spin & zoom it in true 3D? View the interactive, rotatable model at <a href="https://skyline.github.com/JEROME-PRAKASH-L/2026">skyline.github.com</a>.</sub>
 
 ---
 
