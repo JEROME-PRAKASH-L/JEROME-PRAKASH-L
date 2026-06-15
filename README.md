@@ -1,24 +1,24 @@
 <!-- ===================== JEROME PRAKASH L — PROFILE README ===================== -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e0ff,100:0066ff&height=180&section=header&text=Jerome%20Prakash%20L&fontColor=ffffff&fontSize=42&animation=fadeIn&fontAlignY=35&desc=AI%20Agents%20%C2%B7%20Automation%20%C2%B7%20Computer%20Vision&descAlignY=58&descSize=18" alt="header banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1020,50:0066ff,100:00e0ff&height=190&section=header&text=Jerome%20Prakash%20L&fontColor=ffffff&fontSize=44&animation=fadeIn&fontAlignY=34&desc=Building%20the%20future%20with%20AI%20%C2%B7%20Automation%20%C2%B7%20Computer%20Vision&descAlignY=56&descSize=18" alt="header banner" />
 </p>
 
 <p align="center">
   <a href="https://github.com/JEROME-PRAKASH-L">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00E0FF&center=true&vCenter=true&width=650&lines=AI+Agent+Builder;Automation+Developer;Computer+Vision+Explorer;Always+Learning.+Always+Building." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00E0FF&center=true&vCenter=true&width=650&lines=Think+in+First+Principles;Move+Fast.+Build+Things.;AI+Agent+%26+Automation+Builder;Turning+ideas+into+real+products" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=JEROME-PRAKASH-L&label=Profile%20views&color=00e0ff&style=flat-square" alt="profile views" />
-  <img src="https://img.shields.io/badge/Focus-AI%20%26%20Automation-00e0ff?style=flat-square" alt="focus" />
-  <img src="https://img.shields.io/badge/Open%20to-Internships-success?style=flat-square" alt="open to work" />
+  <img src="https://img.shields.io/badge/Mission-AI%20%26%20Automation-00e0ff?style=flat-square" alt="focus" />
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Internships-success?style=flat-square" alt="open to work" />
 </p>
 
 ---
 
-### `jerome@dev:~$ whoami`
+### `jerome@mission-control:~$ whoami`
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
@@ -27,19 +27,10 @@
 │  Location  :  Chennai, Tamil Nadu, India                      │
 │  Building  :  Practical AI tools, workflow automations &      │
 │               developer productivity systems.                 │
+│  Approach  :  First principles · Ship fast · Iterate          │
 │  Status    :  Seeking a Software / AI Engineering Internship  │
 └──────────────────────────────────────────────────────────────┘
 ```
-
----
-
-### 🔨 What I'm Building Now
-
-- 🤖 **AI Daily Inbox Recap Agent**
-- 💬 **Telegram AI Coding Agent** (OpenClaw)
-- 👁️ **Computer Vision** hand-tracking projects
-- ⚙️ **Automation tools** using Python and APIs
-- 🌐 **Developer productivity** systems
 
 ---
 
@@ -55,49 +46,77 @@
 
 ---
 
-### `jerome@dev:~$ cat /etc/skills.conf`
+### 🛰️ Live Build Log
+
+<details open>
+<summary><b>🔨 What I'm building right now</b> — <i>(click to expand / collapse)</i></summary>
+<br/>
+
+- 🤖 **AI Daily Inbox Recap Agent** — summarizes your day from Gmail + Calendar
+- 💬 **Telegram AI Coding Agent** (OpenClaw) — generate code from a chat message
+- 👁️ **Computer Vision** hand-tracking & gesture projects
+- ⚙️ **Automation tools** using Python and REST APIs
+- 🌐 **Developer productivity** systems
+
+</details>
+
+---
+
+### 🧰 Flight Manifest — Tech Arsenal
+
+<details open>
+<summary><b>💻 Languages &amp; Tools I fly with</b></summary>
+<br/>
 
 ```
-[ LANGUAGES ]      Python · JavaScript · HTML · CSS
+[ LANGUAGES ]       Python · JavaScript · HTML · CSS
 [ AI & AUTOMATION ] AI agents & connectors · Prompt engineering · Workflow automation
                     Gmail automation · Google Calendar workflows · RAG concepts
-[ TOOLS ]          Git · GitHub · WSL2 / Linux · CLI tooling · REST APIs · Telegram bots
-[ COMPUTER VISION ] Hand & gesture detection · Real-time human-computer interaction
+[ TOOLS ]           Git · GitHub · WSL2 / Linux · CLI tooling · REST APIs · Telegram bots
+[ VISION ]          Hand & gesture detection · Real-time human-computer interaction
 ```
-
-#### 🧰 Languages and Tools
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,js,html,css,git,github,linux,bash,vscode,aws,mongodb,nodejs&perline=6" alt="languages and tools" />
 </p>
 
+</details>
+
 ---
 
-### `jerome@dev:~$ ls ~/projects`
+### 🤖 Mission Archive — Projects
 
-**🤖 AI Daily Inbox Recap Automation** — `Python · Gmail API · Google Calendar · AI Agents`
+<details open>
+<summary><b>🤖 AI Daily Inbox Recap Automation</b> — <code>Python · Gmail API · Google Calendar · AI Agents</code></summary>
+<br/>
+
 - Aggregates the last 24 hours of Gmail activity and pulls in relevant calendar context to surface what matters each morning.
 - Extracts and prioritizes action items, then delivers a clean summary email — cutting daily manual inbox triage.
 
-**💬 Telegram-Based AI Coding Agent (OpenClaw)** — `WSL2 · Telegram Bot · JavaScript · HTML/CSS`
+</details>
+
+<details>
+<summary><b>💬 Telegram-Based AI Coding Agent (OpenClaw)</b> — <code>WSL2 · Telegram Bot · JavaScript · HTML/CSS</code></summary>
+<br/>
+
 - An AI coding-agent workflow on WSL2 with Telegram as the natural-language instruction interface.
 - Receives coding requests over Telegram and generates project files directly on the local machine.
 
+</details>
+
 ---
 
-### `jerome@dev:~$ cat /etc/education.conf`
+### 🎓 Credentials
+
+<details>
+<summary><b>🎓 Education &amp; Certifications</b></summary>
+<br/>
 
 ```
 🎓  B.E. Computer Science Engineering — DMI College of Engineering
     Aug 2024 – Aug 2028 (Expected) · Chennai, India
     Coursework: Data Structures · Algorithms · Web Development · UX Design · Digital Systems
-```
 
----
-
-### `jerome@dev:~$ cat /etc/certifications.log`
-
-```
 ✓ 5-Day AI Agents Intensive Course with Google            (Kaggle)
 ✓ Agentic AI Day                                          (Hack2skill)
 ✓ AWS Educate: Machine Learning Foundations               (Amazon Web Services)
@@ -107,18 +126,24 @@
 ✓ Prompt Engineering with ChatGPT
 ```
 
+</details>
+
 ---
 
-### 📊 GitHub Stats
+### 🎯 2026 Launch Goals
 
-<p align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=JEROME-PRAKASH-L&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="github stats" />
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JEROME-PRAKASH-L&layout=compact&theme=tokyonight" alt="top languages" />
-</p>
+```
+[██████████░░░░░░░░░░]  Ship more AI agents & automations
+[████████████░░░░░░░░]  Land a Software / AI Engineering internship
+[██████░░░░░░░░░░░░░░]  Build & launch a Computer Vision product
+[████░░░░░░░░░░░░░░░░]  Make first open-source contributions
+```
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=JEROME-PRAKASH-L&theme=tokyonight" alt="github streak" />
-</p>
+- [x] 🤖 Build working AI-agent automations
+- [x] 💬 Ship a Telegram coding agent
+- [ ] 🚀 Land a Software / AI internship
+- [ ] 👁️ Launch a Computer Vision product
+- [ ] 🌍 Contribute to open source
 
 ---
 
@@ -154,6 +179,7 @@ I'm interested in: **AI Agents · Automation · Computer Vision · Python Develo
 
 ---
 
-<p align="center"><b>⚡ Always Learning. Always Building. Always Automating. ⚡</b></p>
+<p align="center"><i>"When something is important enough, you do it even if the odds are not in your favor."</i></p>
+<p align="center"><b>⚡ Always Learning. Always Building. Always Launching. 🚀</b></p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0066ff,100:00e0ff&height=120&section=footer" alt="footer banner" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e0ff,50:0066ff,100:0b1020&height=120&section=footer" alt="footer banner" width="100%" />
