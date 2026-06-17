@@ -1,18 +1,18 @@
 <!-- ===================== JEROME PRAKASH L — PROFILE README ===================== -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1020,50:0066ff,100:00e0ff&height=190&section=header&text=Jerome%20Prakash%20L&fontColor=ffffff&fontSize=44&animation=fadeIn&fontAlignY=34&desc=Building%20the%20future%20with%20AI%20%C2%B7%20Automation%20%C2%B7%20Computer%20Vision&descAlignY=56&descSize=18" alt="header banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0d1117,100:00ff88&height=200&section=header&text=JEROME%20PRAKASH%20L&fontColor=00ff88&fontSize=46&fontAlignY=35&desc=%3E_%20AI%20Agent%20%26%20Automation%20Builder&descAlignY=56&descSize=18&animation=fadeIn" alt="header banner" />
 </p>
 
 <p align="center">
   <a href="https://github.com/JEROME-PRAKASH-L">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00E0FF&center=true&vCenter=true&width=650&lines=Think+in+First+Principles;Move+Fast.+Build+Things.;AI+Agent+%26+Automation+Builder;Turning+ideas+into+real+products" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FF88&center=true&vCenter=true&width=700&lines=%24+whoami;%3E+Jerome+Prakash+L+%3A+AI+%26+Automation+Builder;%24+./ship_the_future.sh+--fast;%3E+building...;Think+in+First+Principles" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=JEROME-PRAKASH-L&label=Profile%20views&color=00e0ff&style=flat-square" alt="profile views" />
-  <img src="https://img.shields.io/badge/Mission-AI%20%26%20Automation-00e0ff?style=flat-square" alt="focus" />
+  <img src="https://komarev.com/ghpvc/?username=JEROME-PRAKASH-L&label=Profile%20views&color=00ff88&style=flat-square" alt="profile views" />
+  <img src="https://img.shields.io/badge/Mission-AI%20%26%20Automation-brightgreen?style=flat-square" alt="focus" />
   <img src="https://img.shields.io/badge/Status-Open%20to%20Internships-success?style=flat-square" alt="open to work" />
 </p>
 
@@ -249,4 +249,4 @@ I'm interested in: **AI Agents · Automation · Computer Vision · Python Develo
 <p align="center"><i>"When something is important enough, you do it even if the odds are not in your favor."</i></p>
 <p align="center"><b>⚡ Always Learning. Always Building. Always Launching. 🚀</b></p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e0ff,50:0066ff,100:0b1020&height=120&section=footer" alt="footer banner" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,50:003d24,100:0d1117&height=120&section=footer" alt="footer banner" width="100%" />
