@@ -1,12 +1,11 @@
 <!-- ===================== JEROME PRAKASH L — PROFILE README ===================== -->
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0d1117,100:00ff88&height=200&section=header&text=JEROME%20PRAKASH%20L&fontColor=00ff88&fontSize=46&fontAlignY=35&desc=%3E_%20AI%20Agent%20%26%20Automation%20Builder&descAlignY=56&descSize=18&animation=fadeIn" alt="header banner" />
-</p>
+<h1 align="center">&lt;/&gt;&nbsp; JEROME PRAKASH L &nbsp;&lt;/&gt;</h1>
+<p align="center"><i>Building the future with AI · Automation · Computer Vision</i></p>
 
 <p align="center">
   <a href="https://github.com/JEROME-PRAKASH-L">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FF88&center=true&vCenter=true&width=700&lines=%24+whoami;%3E+Jerome+Prakash+L+%3A+AI+%26+Automation+Builder;%24+./ship_the_future.sh+--fast;%3E+building...;Think+in+First+Principles" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FF88&center=true&vCenter=true&width=720&lines=AI+Agent+%26+Automation+Builder;Computer+Vision+Explorer;%24+./ship_the_future.sh+--fast;Think+in+First+Principles" alt="Typing SVG" />
   </a>
 </p>
 
@@ -249,4 +248,4 @@ I'm interested in: **AI Agents · Automation · Computer Vision · Python Develo
 <p align="center"><i>"When something is important enough, you do it even if the odds are not in your favor."</i></p>
 <p align="center"><b>⚡ Always Learning. Always Building. Always Launching. 🚀</b></p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,50:003d24,100:0d1117&height=120&section=footer" alt="footer banner" width="100%" />
+<p align="center"><sub>━━━━━━━━━━  ◤ Built with first principles · Powered by curiosity ◢  ━━━━━━━━━━</sub></p>
