@@ -140,6 +140,25 @@ $ ai-stack --status
 
 ---
 
+### 🌍 Open Source Roadmap
+
+I am turning my strongest projects into cleaner, easier-to-use open-source work. If you are exploring AI agents, automation, or computer vision, these are the best places to start:
+
+| Project | What it shows | Next milestone |
+|---|---|---|
+| [AI-Powered Document Analysis Extraction](https://github.com/JEROME-PRAKASH-L/AI-Powered-Document-Analysis-Extraction) | TypeScript document analysis workflow | Add a full setup guide, sample files, and screenshots |
+| [Al-Campus-Copilot](https://github.com/JEROME-PRAKASH-L/Al-Campus-Copilot) | Campus-focused AI assistant ideas | Stabilize the app structure and document the main use cases |
+| [OpenClaw](https://github.com/JEROME-PRAKASH-L/openclaw) | Telegram-based AI coding workflow | Add architecture notes and a beginner-friendly quickstart |
+| [Make Me Productive - YouTube Focus Buddy](https://github.com/JEROME-PRAKASH-L/Make-Me-Productive---Youtube-Focus-Buddy) | Browser productivity tooling | Add demo media, install steps, and contribution tasks |
+
+Open to collaboration on:
+
+- README improvements, demos, screenshots, and install guides
+- Beginner-friendly issues for Python, JavaScript, TypeScript, and browser extensions
+- Pull requests that make these projects easier to run, test, and understand
+
+---
+
 ### 🎓 Credentials
 
 <details>
