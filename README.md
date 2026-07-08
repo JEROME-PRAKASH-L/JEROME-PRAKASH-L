@@ -1,206 +1,90 @@
-<!-- ===================== JEROME PRAKASH L — PROFILE README ===================== -->
-
-<h1 align="center">&lt;/&gt;&nbsp; JEROME PRAKASH L &nbsp;&lt;/&gt;</h1>
-<p align="center"><i>Building the future with AI · Automation · Computer Vision</i></p>
-
+<h1 align="center">Jerome Prakash L</h1>
 <p align="center">
-  <a href="https://github.com/JEROME-PRAKASH-L">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FF88&center=true&vCenter=true&width=720&lines=AI+Agent+%26+Automation+Builder;Computer+Vision+Explorer;%24+./ship_the_future.sh+--fast;Think+in+First+Principles" alt="Typing SVG" />
-  </a>
+  <b>CSE student building AI agents, automation tools, and computer vision projects.</b>
+</p>
+<p align="center">
+  Seeking <b>Software Engineering</b> and <b>AI Engineering</b> internships.
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=JEROME-PRAKASH-L&label=Profile%20views&color=00ff88&style=flat-square" alt="profile views" />
-  <img src="https://img.shields.io/badge/Mission-AI%20%26%20Automation-brightgreen?style=flat-square" alt="focus" />
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Internships-success?style=flat-square" alt="open to work" />
+  <img src="https://img.shields.io/badge/Focus-AI%20Agents%20%7C%20Automation%20%7C%20Computer%20Vision-brightgreen?style=flat-square" alt="focus" />
+  <img src="https://img.shields.io/badge/Open%20to-Internships-success?style=flat-square" alt="open to internships" />
 </p>
 
 ---
 
-### `jerome@mission-control:~$ whoami`
+## About Me
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│  Name      :  Jerome Prakash L                                │
-│  Role      :  CSE Student | AI-Agent & Automation Builder     │
-│  Location  :  Chennai, Tamil Nadu, India                      │
-│  Building  :  Practical AI tools, workflow automations &      │
-│               developer productivity systems.                 │
-│  Approach  :  First principles · Ship fast · Iterate          │
-│  Status    :  Seeking a Software / AI Engineering Internship  │
-└──────────────────────────────────────────────────────────────┘
-```
+I am a Computer Science Engineering student from Chennai, India, focused on turning ideas into working products. My current work centers on practical AI agents, workflow automation, browser productivity tools, and real-time computer vision experiments.
+
+- Building with: Python, JavaScript, TypeScript, HTML/CSS, REST APIs, Git, GitHub, WSL2/Linux, Telegram bots, and AI copilots.
+- Learning deeper: agentic AI, RAG systems, backend workflows, data structures, algorithms, and production-ready project documentation.
+- Looking for: software engineering, AI engineering, automation, and full-stack internship opportunities.
 
 ---
 
-### 🚀 Mission Control
-
-| Focus | Details |
-|---|---|
-| **Vision** | Build AI systems that save human time |
-| **Approach** | First-principles thinking + fast prototyping |
-| **Current Work** | AI Agents, Automation, Computer Vision |
-| **Goal** | Turn ideas into real working products |
-| **Status** | Open to internships and collaborations |
-
----
-
-### 🧠 Operating Principles
-
-```
-01 ·  Reason from first principles — not by analogy.
-02 ·  Ship fast, then iterate relentlessly.
-03 ·  Automate the boring. Focus energy on the hard.
-04 ·  Build things people actually use.
-05 ·  Stay curious. Learn in public. Compound daily.
-```
-
----
-
-### 🛰️ Live Build Log
-
-<details open>
-<summary><b>🔨 What I'm building right now</b> — <i>(click to expand / collapse)</i></summary>
-<br/>
-
-- 🤖 **AI Daily Inbox Recap Agent** — summarizes your day from Gmail + Calendar
-- 💬 **Telegram AI Coding Agent** (OpenClaw) — generate code from a chat message
-- 👁️ **Computer Vision** hand-tracking & gesture projects
-- ⚙️ **Automation tools** using Python and REST APIs
-- 🌐 **Developer productivity** systems
-
-</details>
-
----
-
-### 🧰 Flight Manifest — Tech Arsenal
-
-<details open>
-<summary><b>💻 Languages &amp; Tools I fly with</b></summary>
-<br/>
-
-```
-[ LANGUAGES ]       Python · JavaScript · HTML · CSS
-[ AI & AUTOMATION ] AI agents & connectors · Prompt engineering · Workflow automation
-                    Gmail automation · Google Calendar workflows · RAG concepts
-[ AI COPILOTS ]     Claude · Codex · GitHub Copilot · ChatGPT
-[ TOOLS ]           Git · GitHub · WSL2 / Linux · CLI tooling · REST APIs · Telegram bots
-[ VISION ]          Hand & gesture detection · Real-time human-computer interaction
-```
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,html,css,git,github,linux,bash,vscode,aws,mongodb,nodejs&perline=6" alt="languages and tools" />
-</p>
-
-</details>
-
----
-
-### 🛸 AI Copilots in the Cockpit
-
-> I don't just build AI — I **build with AI**. These are the copilots I pair with daily to ship faster.
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude" />
-  <img src="https://img.shields.io/badge/OpenAI%20Codex-412991?style=for-the-badge&logo=openai&logoColor=white" alt="Codex" />
-  <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot" />
-  <img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" />
-</p>
-
-```
-$ ai-stack --status
-  ✓ Claude          ready   ·  reasoning · code · agents
-  ✓ Codex           ready   ·  code generation
-  ✓ GitHub Copilot  ready   ·  inline autocomplete
-  ✓ ChatGPT         ready   ·  brainstorming · prototyping
-[ STATUS ]  4 copilots online — shipping at orbital velocity 🚀
-```
-
----
-
-### 🤖 Mission Archive — Projects
-
-<details open>
-<summary><b>🤖 AI Daily Inbox Recap Automation</b> — <code>Python · Gmail API · Google Calendar · AI Agents</code></summary>
-<br/>
-
-- Aggregates the last 24 hours of Gmail activity and pulls in relevant calendar context to surface what matters each morning.
-- Extracts and prioritizes action items, then delivers a clean summary email — cutting daily manual inbox triage.
-
-</details>
-
-<details>
-<summary><b>💬 Telegram-Based AI Coding Agent (OpenClaw)</b> — <code>WSL2 · Telegram Bot · JavaScript · HTML/CSS</code></summary>
-<br/>
-
-- An AI coding-agent workflow on WSL2 with Telegram as the natural-language instruction interface.
-- Receives coding requests over Telegram and generates project files directly on the local machine.
-
-</details>
-
----
-
-### 🌍 Open Source Roadmap
-
-I am turning my strongest projects into cleaner, easier-to-use open-source work. If you are exploring AI agents, automation, or computer vision, these are the best places to start:
+## Featured Projects
 
 | Project | What it shows | Next milestone |
 |---|---|---|
-| [AI-Powered Document Analysis Extraction](https://github.com/JEROME-PRAKASH-L/AI-Powered-Document-Analysis-Extraction) | TypeScript document analysis workflow | Add a full setup guide, sample files, and screenshots |
-| [Al-Campus-Copilot](https://github.com/JEROME-PRAKASH-L/Al-Campus-Copilot) | Campus-focused AI assistant ideas | Stabilize the app structure and document the main use cases |
+| [AI-Powered Document Analysis Extraction](https://github.com/JEROME-PRAKASH-L/AI-Powered-Document-Analysis-Extraction) | TypeScript document analysis workflow | Add setup guide, sample files, and screenshots |
 | [OpenClaw](https://github.com/JEROME-PRAKASH-L/openclaw) | Telegram-based AI coding workflow | Add architecture notes and a beginner-friendly quickstart |
 | [Make Me Productive - YouTube Focus Buddy](https://github.com/JEROME-PRAKASH-L/Make-Me-Productive---Youtube-Focus-Buddy) | Browser productivity tooling | Add demo media, install steps, and contribution tasks |
-
-Open to collaboration on:
-
-- README improvements, demos, screenshots, and install guides
-- Beginner-friendly issues for Python, JavaScript, TypeScript, and browser extensions
-- Pull requests that make these projects easier to run, test, and understand
+| [Al-Campus-Copilot](https://github.com/JEROME-PRAKASH-L/Al-Campus-Copilot) | Campus-focused AI assistant ideas | Stabilize app structure and document main use cases |
 
 ---
 
-### 🎓 Credentials
+## Current Build Log
+
+- AI Daily Inbox Recap Agent: summarizes Gmail and Calendar activity into a useful daily brief.
+- OpenClaw: a Telegram-based coding agent workflow for generating local project files from chat instructions.
+- Computer vision experiments: hand tracking, gesture interaction, and real-time human-computer interaction.
+- Automation tools: Python and API workflows that reduce repetitive manual work.
+
+---
+
+## Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,git,github,linux,bash,vscode,nodejs,mongodb&perline=6" alt="languages and tools" />
+</p>
+
+```text
+Languages       Python, JavaScript, TypeScript, HTML, CSS
+AI/Automation   AI agents, prompt engineering, workflow automation, RAG concepts
+Tools           Git, GitHub, WSL2/Linux, CLI tooling, REST APIs, Telegram bots
+Vision          Hand tracking, gesture detection, human-computer interaction
+AI Copilots     Claude, Codex, GitHub Copilot, ChatGPT
+```
+
+---
+
+## Education & Certifications
 
 <details>
-<summary><b>🎓 Education &amp; Certifications</b></summary>
-<br/>
+<summary><b>Education and certifications</b></summary>
 
-```
-🎓  B.E. Computer Science Engineering — DMI College of Engineering
-    Aug 2024 – Aug 2028 (Expected) · Chennai, India
-    Coursework: Data Structures · Algorithms · Web Development · UX Design · Digital Systems
+```text
+B.E. Computer Science Engineering
+DMI College of Engineering, Chennai
+Aug 2024 - Aug 2028 (Expected)
 
-✓ 5-Day AI Agents Intensive Course with Google            (Kaggle)
-✓ Agentic AI Day                                          (Hack2skill)
-✓ AWS Educate: Machine Learning Foundations               (Amazon Web Services)
-✓ Building RAG Apps Using MongoDB                         (MongoDB)
-✓ J.P. Morgan Software Engineering Job Simulation         (Forage)
-✓ Learn Git                                               (Educative)
-✓ Prompt Engineering with ChatGPT
+Certifications and programs:
+- 5-Day AI Agents Intensive Course with Google (Kaggle)
+- Agentic AI Day (Hack2skill)
+- AWS Educate: Machine Learning Foundations
+- Building RAG Apps Using MongoDB
+- J.P. Morgan Software Engineering Job Simulation (Forage)
+- Learn Git (Educative)
+- Prompt Engineering with ChatGPT
 ```
 
 </details>
 
 ---
 
-### 🎯 2026 Launch Goals
-
-```
-[██████████░░░░░░░░░░]  Ship more AI agents & automations
-[████████████░░░░░░░░]  Land a Software / AI Engineering internship
-[██████░░░░░░░░░░░░░░]  Build & launch a Computer Vision product
-[████░░░░░░░░░░░░░░░░]  Make first open-source contributions
-```
-
-- [x] 🤖 Build working AI-agent automations
-- [x] 💬 Ship a Telegram coding agent
-- [ ] 🚀 Land a Software / AI internship
-- [ ] 👁️ Launch a Computer Vision product
-- [ ] 🌍 Contribute to open source
-
----
-
-### 🐍 Contribution Snake
+## GitHub Activity
 
 <p align="center">
   <picture>
@@ -210,45 +94,20 @@ Open to collaboration on:
   </picture>
 </p>
 
----
-
-### 🏙️ Contribution Skyline — Wall Street
-
-```
-🏙️  ▁▃▅█▇▆█▅▇█▆▅█▇▆█▅▇█▆▅█▇▆█▅▇█▆▅█▇▆█▅▇█▆▅█▇▆  🏙️
-        W A L L   S T R E E T   —   B U I L T   B Y   C O D E
-```
-
-> My contributions rendered as a 3D city of money-green towers — they **rise as I build**. 🏗️💵
+<details>
+<summary><b>3D contribution view</b></summary>
 
 <p align="center">
   <img src="./profile-3d-contrib/profile-green-animate.svg" alt="animated 3D contribution skyline" />
 </p>
 
-<!-- 🏙️ ROTATING 3D CITY: export your skyline as a GIF from https://skyline.github.com/JEROME-PRAKASH-L/2026
-     then drop the file in this repo and replace the line below to embed your real rotating city.
-<p align="center">
-  <img src="./skyline.gif" alt="rotating 3D contribution city" width="600" />
-</p>
--->
-
-<details>
-<summary><b>🧱 Switch view → block-city skyline</b></summary>
-<br/>
-<p align="center">
-  <img src="./profile-3d-contrib/profile-gitblock.svg" alt="block city contribution graph" />
-</p>
 </details>
-
-<sub>🛰️ Want to spin & zoom it in true 3D? View the interactive, rotatable model at <a href="https://skyline.github.com/JEROME-PRAKASH-L/2026">skyline.github.com</a>.</sub>
 
 ---
 
-### 🤝 Let's Connect
+## Connect
 
-I'm open to **software engineering, AI engineering, and automation internships**.
-
-I'm interested in: **AI Agents · Automation · Computer Vision · Python Development · Full-stack Projects**
+I am open to internships, collaborations, and beginner-friendly open-source work around AI agents, automation, computer vision, Python development, and full-stack projects.
 
 <p align="left">
   <a href="https://linkedin.com/in/jerome-prakash-975a15326" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -256,15 +115,12 @@ I'm interested in: **AI Agents · Automation · Computer Vision · Python Develo
   <a href="https://github.com/JEROME-PRAKASH-L" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
 
-```
-📥  Email     :  prakashjerome152@gmail.com
-🔗  LinkedIn  :  linkedin.com/in/jerome-prakash-975a15326
-💻  GitHub    :  github.com/JEROME-PRAKASH-L
+```text
+Email     prakashjerome152@gmail.com
+LinkedIn  linkedin.com/in/jerome-prakash-975a15326
+GitHub    github.com/JEROME-PRAKASH-L
 ```
 
 ---
 
-<p align="center"><i>"When something is important enough, you do it even if the odds are not in your favor."</i></p>
-<p align="center"><b>⚡ Always Learning. Always Building. Always Launching. 🚀</b></p>
-
-<p align="center"><sub>━━━━━━━━━━  ◤ Built with first principles · Powered by curiosity ◢  ━━━━━━━━━━</sub></p>
+<p align="center"><b>Always learning. Always building. Always improving.</b></p>
