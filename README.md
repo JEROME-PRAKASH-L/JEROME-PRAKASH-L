@@ -1,90 +1,107 @@
-<h1 align="center">Jerome Prakash L</h1>
-<p align="center">
-  <b>CSE student building AI agents, automation tools, and computer vision projects.</b>
-</p>
-<p align="center">
-  Seeking <b>Software Engineering</b> and <b>AI Engineering</b> internships.
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=JEROME-PRAKASH-L&label=Profile%20views&color=00ff88&style=flat-square" alt="profile views" />
-  <img src="https://img.shields.io/badge/Focus-AI%20Agents%20%7C%20Automation%20%7C%20Computer%20Vision-brightgreen?style=flat-square" alt="focus" />
-  <img src="https://img.shields.io/badge/Open%20to-Internships-success?style=flat-square" alt="open to internships" />
-</p>
+<img src="https://komarev.com/ghpvc/?username=JEROME-PRAKASH-L&label=visitors&color=00ff88&style=flat-square" alt="profile views" />
+<img src="https://img.shields.io/badge/Focus-AI%20Agents%20%7C%20Automation%20%7C%20Computer%20Vision-00ff88?style=flat-square" alt="focus" />
+<img src="https://img.shields.io/badge/Open%20to-Internships-success?style=flat-square" alt="open to internships" />
 
----
+</div>
 
-## About Me
+<br/>
 
-I am a Computer Science Engineering student from Chennai, India, focused on turning ideas into working products. My current work centers on practical AI agents, workflow automation, browser productivity tools, and real-time computer vision experiments.
+```console
+jerome@github:~$ fastfetch --profile
+```
 
-- Building with: Python, JavaScript, TypeScript, HTML/CSS, REST APIs, Git, GitHub, WSL2/Linux, Telegram bots, and AI copilots.
-- Learning deeper: agentic AI, RAG systems, backend workflows, data structures, algorithms, and production-ready project documentation.
-- Looking for: software engineering, AI engineering, automation, and full-stack internship opportunities.
+```text
+     ██╗███████╗██████╗  ██████╗ ███╗   ███╗███████╗
+     ██║██╔════╝██╔══██╗██╔═══██╗████╗ ████║██╔════╝
+     ██║█████╗  ██████╔╝██║   ██║██╔████╔██║█████╗
+██   ██║██╔══╝  ██╔══██╗██║   ██║██║╚██╔╝██║██╔══╝
+╚█████╔╝███████╗██║  ██║╚██████╔╝██║ ╚═╝ ██║███████╗
+ ╚════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝
 
----
+jerome-prakash-l @ github
+──────────────────────────────────────────────────────────────
+ Subject ............ Jerome Prakash L
+ Role ............... CSE Undergrad · AI/Automation Builder
+ Origin ............. Chennai, India
+ Education .......... B.E. CSE · DMI College of Engineering
+                      2024 → 2028 (expected)
+ Status ............. Building · Learning · Shipping
+ Seeking ............ SWE / AI Engineering internships
 
-## Featured Projects
+ Toolchain .......... VS Code, Git, WSL2/Linux, CLI, REST APIs
 
-| Project | What it shows | Next milestone |
-|---|---|---|
-| [AI-Powered Document Analysis Extraction](https://github.com/JEROME-PRAKASH-L/AI-Powered-Document-Analysis-Extraction) | TypeScript document analysis workflow | Add setup guide, sample files, and screenshots |
-| [OpenClaw](https://github.com/JEROME-PRAKASH-L/openclaw) | Telegram-based AI coding workflow | Add architecture notes and a beginner-friendly quickstart |
-| [Make Me Productive - YouTube Focus Buddy](https://github.com/JEROME-PRAKASH-L/Make-Me-Productive---Youtube-Focus-Buddy) | Browser productivity tooling | Add demo media, install steps, and contribution tasks |
-| [Al-Campus-Copilot](https://github.com/JEROME-PRAKASH-L/Al-Campus-Copilot) | Campus-focused AI assistant ideas | Stabilize app structure and document main use cases |
+ Core Lang .......... Python, JavaScript, TypeScript
+ Core Frontend ...... HTML, CSS, browser extensions
+ Core AI ............ AI agents, RAG, prompt engineering
+ Core Vision ........ Hand tracking, gesture interaction
+ Core Automation .... Telegram bots, workflow pipelines
+ Core Copilots ...... Claude, Codex, GitHub Copilot, ChatGPT
 
----
+ ─ Contact ────────────────────────────────────────────────────
+ Grid Mail .......... prakashjerome152@gmail.com
+ Grid LinkedIn ...... linkedin.com/in/jerome-prakash-975a15326
+ Grid GitHub ........ github.com/JEROME-PRAKASH-L
 
-## Current Build Log
-
-- AI Daily Inbox Recap Agent: summarizes Gmail and Calendar activity into a useful daily brief.
-- OpenClaw: a Telegram-based coding agent workflow for generating local project files from chat instructions.
-- Computer vision experiments: hand tracking, gesture interaction, and real-time human-computer interaction.
-- Automation tools: Python and API workflows that reduce repetitive manual work.
-
----
-
-## Tech Stack
+ ─ Live Stats ─────────────────────────────────────────────────
+ » See live GitHub stats badges below in README
+```
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,js,ts,html,css,git,github,linux,bash,vscode,nodejs,mongodb&perline=6" alt="languages and tools" />
 </p>
 
+---
+
+```console
+jerome@github:~$ cat /var/log/build.log
+```
+
 ```text
-Languages       Python, JavaScript, TypeScript, HTML, CSS
-AI/Automation   AI agents, prompt engineering, workflow automation, RAG concepts
-Tools           Git, GitHub, WSL2/Linux, CLI tooling, REST APIs, Telegram bots
-Vision          Hand tracking, gesture detection, human-computer interaction
-AI Copilots     Claude, Codex, GitHub Copilot, ChatGPT
+[ ACTIVE ]  AI Daily Inbox Recap Agent .... Gmail + Calendar → daily brief
+[ ACTIVE ]  OpenClaw ...................... Telegram-based AI coding agent
+[ ACTIVE ]  Vision experiments ............ hand tracking · gesture control
+[ ACTIVE ]  Automation tools .............. Python + API workflow pipelines
+```
+
+| Project | What it shows |
+|---|---|
+| [AI-Powered Document Analysis Extraction](https://github.com/JEROME-PRAKASH-L/AI-Powered-Document-Analysis-Extraction) | TypeScript document analysis workflow |
+| [OpenClaw](https://github.com/JEROME-PRAKASH-L/openclaw) | Telegram-based AI coding workflow |
+| [Make Me Productive — YouTube Focus Buddy](https://github.com/JEROME-PRAKASH-L/Make-Me-Productive---Youtube-Focus-Buddy) | Browser productivity tooling |
+| [AI-Campus-Copilot](https://github.com/JEROME-PRAKASH-L/Al-Campus-Copilot) | Campus-focused AI assistant |
+
+---
+
+```console
+jerome@github:~$ cat /etc/certs.conf
+```
+
+```text
+[✓] 5-Day AI Agents Intensive Course with Google (Kaggle)
+[✓] Agentic AI Day (Hack2skill)
+[✓] AWS Educate: Machine Learning Foundations
+[✓] Building RAG Apps Using MongoDB
+[✓] J.P. Morgan Software Engineering Job Simulation (Forage)
+[✓] Learn Git (Educative)
+[✓] Prompt Engineering with ChatGPT
 ```
 
 ---
 
-## Education & Certifications
-
-<details>
-<summary><b>Education and certifications</b></summary>
-
-```text
-B.E. Computer Science Engineering
-DMI College of Engineering, Chennai
-Aug 2024 - Aug 2028 (Expected)
-
-Certifications and programs:
-- 5-Day AI Agents Intensive Course with Google (Kaggle)
-- Agentic AI Day (Hack2skill)
-- AWS Educate: Machine Learning Foundations
-- Building RAG Apps Using MongoDB
-- J.P. Morgan Software Engineering Job Simulation (Forage)
-- Learn Git (Educative)
-- Prompt Engineering with ChatGPT
+```console
+jerome@github:~$ gh stats --live
 ```
 
-</details>
+<p align="center">
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=JEROME-PRAKASH-L&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117" alt="GitHub stats" />
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JEROME-PRAKASH-L&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117" alt="Top languages" />
+</p>
 
----
-
-## GitHub Activity
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=JEROME-PRAKASH-L&theme=chartreuse-dark&hide_border=true&background=0d1117" alt="GitHub streak" />
+</p>
 
 <p align="center">
   <picture>
@@ -105,22 +122,30 @@ Certifications and programs:
 
 ---
 
-## Connect
+```console
+jerome@github:~$ netstat --connections
+```
 
-I am open to internships, collaborations, and beginner-friendly open-source work around AI agents, automation, computer vision, Python development, and full-stack projects.
+```text
+[ACTIVE CONNECTIONS]
+  → Email ....... prakashjerome152@gmail.com
+  → LinkedIn .... linkedin.com/in/jerome-prakash-975a15326
+  → GitHub ...... github.com/JEROME-PRAKASH-L
 
-<p align="left">
+[STATUS] All channels open for internships, collaborations,
+         and open-source work in AI agents, automation,
+         computer vision, and full-stack projects.
+```
+
+<p align="center">
   <a href="https://linkedin.com/in/jerome-prakash-975a15326" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:prakashjerome152@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://github.com/JEROME-PRAKASH-L" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
 
-```text
-Email     prakashjerome152@gmail.com
-LinkedIn  linkedin.com/in/jerome-prakash-975a15326
-GitHub    github.com/JEROME-PRAKASH-L
-```
-
 ---
 
-<p align="center"><b>Always learning. Always building. Always improving.</b></p>
+```console
+jerome@github:~$ echo $MOTTO
+Always learning. Always building. Always improving.
+```
