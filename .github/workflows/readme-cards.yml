@@ -48,4 +48,5 @@ jobs:
           git add profile/stats.svg profile/top-langs.svg
           git diff --cached --quiet && exit 0
           git commit -m "chore: refresh README cards"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
