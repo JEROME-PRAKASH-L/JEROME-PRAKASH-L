@@ -5,6 +5,10 @@
 <h1 align="center">Hi, I'm <a href="https://jerome-prakash-l.github.io/elonmusk_jp/">Jerome Prakash L</a> 👋</h1>
 
 <p align="center">
+  🌐 <strong>My Website:</strong> <a href="https://jerome-prakash-l.github.io/elonmusk_jp/">jerome-prakash-l.github.io/elonmusk_jp</a>
+</p>
+
+<p align="center">
   <strong>Computer Science Engineering student building AI agents, automation tools, and computer vision projects.</strong>
 </p>
 
