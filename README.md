@@ -9,6 +9,7 @@
 </p>
 
 <p align="center">
+  <a href="https://jerome-prakash-l.github.io/elonmusk_jp/"><img src="https://img.shields.io/badge/VISIT-MY%20WEBSITE-00b4d8?style=for-the-badge&logo=githubpages&logoColor=white" alt="Visit Jerome Prakash L's website" /></a>
   <a href="https://github.com/JEROME-PRAKASH-L"><img src="https://komarev.com/ghpvc/?username=JEROME-PRAKASH-L&label=PROFILE+VIEWS&color=00b4d8&style=for-the-badge" alt="Profile views" /></a>
   <a href="https://github.com/JEROME-PRAKASH-L?tab=followers"><img src="https://img.shields.io/github/followers/JEROME-PRAKASH-L?label=FOLLOWERS&style=for-the-badge&color=7b61ff" alt="GitHub followers" /></a>
   <a href="mailto:prakashjerome152@gmail.com"><img src="https://img.shields.io/badge/OPEN%20TO-INTERNSHIPS-00c853?style=for-the-badge" alt="Open to internships" /></a>
