@@ -2,7 +2,7 @@
   <img width="100%" src="./assets/profile-banner.svg" alt="Jerome Prakash L — AI engineer, automation builder, and software developer" />
 </p>
 
-<h1 align="center">Hi, I'm Jerome Prakash L 👋</h1>
+<h1 align="center">Hi, I'm <a href="https://jerome-prakash-l.github.io/elonmusk_jp/">Jerome Prakash L</a> 👋</h1>
 
 <p align="center">
   <strong>Computer Science Engineering student building AI agents, automation tools, and computer vision projects.</strong>
