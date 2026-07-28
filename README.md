@@ -76,7 +76,7 @@ open_to:
 | Project | Built to demonstrate | Next milestone |
 |:---|:---|:---|
 | **[AI-Powered Document Analysis Extraction](https://github.com/JEROME-PRAKASH-L/AI-Powered-Document-Analysis-Extraction)** | TypeScript document-analysis workflow | Add sample files, screenshots, and a guided demo |
-| **[OpenClaw](https://github.com/JEROME-PRAKASH-L/openclaw)** | Telegram-based AI coding workflow | Add architecture notes and a beginner-friendly quickstart |
+| **[SkillBridge Local](https://github.com/JEROME-PRAKASH-L/skillbridge-local)** · [Live demo](https://skillbridge-local-chennai.netlify.app) | Next.js and Supabase marketplace connecting local businesses with students for micro tech tasks | Add Supabase authentication and protected marketplace writes |
 | **[Make Me Productive — YouTube Focus Buddy](https://github.com/JEROME-PRAKASH-L/Make-Me-Productive---Youtube-Focus-Buddy)** | Browser productivity tooling | Add demo media, installation steps, and contribution tasks |
 | **[AI Campus Copilot](https://github.com/JEROME-PRAKASH-L/Al-Campus-Copilot)** | Campus-focused AI assistant concepts | Stabilize the app structure and document its main use cases |
 
@@ -84,7 +84,7 @@ open_to:
 <summary><strong>What I'm building now</strong></summary>
 
 - **AI Daily Inbox Recap Agent** — summarizes Gmail and Calendar activity into a useful daily brief.
-- **OpenClaw** — a Telegram-based coding workflow that turns chat instructions into local project files.
+- **SkillBridge Local** — a working marketplace demo that connects local businesses with students for clearly scoped micro tech tasks.
 - **Computer vision experiments** — hand tracking, gesture interaction, and real-time human-computer interaction.
 - **Automation tools** — Python and API workflows that reduce repetitive manual work.
 
