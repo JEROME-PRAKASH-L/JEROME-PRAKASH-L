@@ -1,156 +1,219 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-  <title id="title">Jerome Prakash L — Tony Stark-inspired Arc Reactor developer interface</title>
-  <desc id="desc">A futuristic dark HUD with a glowing cyan JPL Arc Reactor core, JARVIS status, Mark JPL-26 identity, full power telemetry, and Jerome's AI, automation, and full-stack focus.</desc>
+  <title id="title">Jerome Prakash L — Iron Armor and JARVIS hybrid developer HUD</title>
+  <desc id="desc">A red-and-gold armor-inspired developer banner fused with a blue holographic JARVIS interface, featuring Jerome Prakash L, Mark JPL-26, AI, automation, full-stack development, and computer vision.</desc>
 
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#020409"/>
-      <stop offset="0.48" stop-color="#07111c"/>
-      <stop offset="1" stop-color="#02070d"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030508"/>
+      <stop offset="0.5" stop-color="#090b11"/>
+      <stop offset="1" stop-color="#02060a"/>
     </linearGradient>
-    <linearGradient id="cyanLine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0087a8"/>
-      <stop offset="0.48" stop-color="#e9fdff"/>
-      <stop offset="1" stop-color="#00d9ff"/>
+    <linearGradient id="armorRed" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b0608"/>
+      <stop offset="0.45" stop-color="#a41d23"/>
+      <stop offset="0.72" stop-color="#5c0b10"/>
+      <stop offset="1" stop-color="#210306"/>
     </linearGradient>
-    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+    <linearGradient id="armorGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff1a6"/>
+      <stop offset="0.36" stop-color="#f6c453"/>
+      <stop offset="0.68" stop-color="#b56d16"/>
+      <stop offset="1" stop-color="#6e3508"/>
+    </linearGradient>
+    <linearGradient id="energyLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7b1117"/>
+      <stop offset="0.28" stop-color="#f6c453"/>
+      <stop offset="0.62" stop-color="#2be7ff"/>
+      <stop offset="1" stop-color="#0b6688"/>
+    </linearGradient>
+    <radialGradient id="arcCore" cx="50%" cy="50%" r="50%">
       <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.18" stop-color="#c9fbff"/>
-      <stop offset="0.46" stop-color="#00e5ff"/>
-      <stop offset="0.72" stop-color="#007c9c"/>
-      <stop offset="1" stop-color="#02131e"/>
+      <stop offset="0.18" stop-color="#d9fcff"/>
+      <stop offset="0.42" stop-color="#35edff"/>
+      <stop offset="0.72" stop-color="#087b9d"/>
+      <stop offset="1" stop-color="#031018"/>
     </radialGradient>
-    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#bdfaff" stop-opacity="0.48"/>
-      <stop offset="0.38" stop-color="#00d9ff" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#00d9ff" stop-opacity="0"/>
+    <radialGradient id="reactorAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#33ebff" stop-opacity="0.44"/>
+      <stop offset="0.4" stop-color="#159fbd" stop-opacity="0.16"/>
+      <stop offset="0.72" stop-color="#9b171d" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
-      <path d="M38 0H0V38" fill="none" stroke="#0f3140" stroke-width="1" stroke-opacity="0.32"/>
+    <pattern id="microGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#123342" stroke-width="1" stroke-opacity="0.28"/>
     </pattern>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
+    <pattern id="scanLines" width="6" height="6" patternUnits="userSpaceOnUse">
+      <path d="M0 1H1200" stroke="#42eaff" stroke-width="1" stroke-opacity="0.035"/>
+    </pattern>
+    <filter id="cyanGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <filter id="wideGlow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="18"/>
+    <filter id="goldGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="20"/>
     </filter>
     <clipPath id="frame">
-      <rect width="1200" height="420" rx="26"/>
+      <rect width="1200" height="420" rx="28"/>
     </clipPath>
   </defs>
 
   <g clip-path="url(#frame)">
-    <rect width="1200" height="420" fill="url(#bg)"/>
-    <rect width="1200" height="420" fill="url(#grid)"/>
+    <rect width="1200" height="420" fill="url(#background)"/>
+    <rect width="1200" height="420" fill="url(#microGrid)"/>
+    <rect width="1200" height="420" fill="url(#scanLines)"/>
 
-    <g fill="none" stroke="#0b6980" stroke-width="1" opacity="0.38">
-      <path d="M0 72H104L134 102H344"/>
-      <path d="M0 342H94L132 304H350"/>
-      <path d="M1200 65H1104L1072 97H925"/>
-      <path d="M1200 356H1118L1082 320H925"/>
-      <path d="M422 0V48L450 76V122"/>
-      <path d="M840 420V372L812 344V300"/>
+    <!-- Metallic armor shell -->
+    <path d="M0 0H430L378 62H188L150 100H0Z" fill="url(#armorRed)" opacity="0.92"/>
+    <path d="M0 420H462L398 354H212L158 306H0Z" fill="url(#armorRed)" opacity="0.84"/>
+    <path d="M1200 0H902L936 52H1082L1126 98H1200Z" fill="url(#armorRed)" opacity="0.88"/>
+    <path d="M1200 420H875L920 364H1070L1120 310H1200Z" fill="url(#armorRed)" opacity="0.9"/>
+    <path d="M0 102H151L183 70H372" fill="none" stroke="url(#armorGold)" stroke-width="4"/>
+    <path d="M0 306H157L210 355H397" fill="none" stroke="url(#armorGold)" stroke-width="4"/>
+    <path d="M1200 99H1128L1080 53H937" fill="none" stroke="url(#armorGold)" stroke-width="4"/>
+    <path d="M1200 309H1122L1068 364H920" fill="none" stroke="url(#armorGold)" stroke-width="4"/>
+
+    <!-- Blue holographic circuit field -->
+    <g fill="none" stroke="#27dff7" stroke-width="1.4" opacity="0.46">
+      <path d="M0 138H92L122 168H300"/>
+      <path d="M0 278H74L112 240H286"/>
+      <path d="M370 0V35L398 63V112"/>
+      <path d="M736 0V36L706 66V105"/>
+      <path d="M738 420V386L704 352V320"/>
+      <path d="M1200 142H1154L1121 175H1085"/>
+      <path d="M1200 278H1160L1124 242H1083"/>
     </g>
-    <g fill="#00d9ff">
-      <circle cx="134" cy="102" r="3"/>
-      <circle cx="132" cy="304" r="3"/>
-      <circle cx="1072" cy="97" r="3"/>
-      <circle cx="1082" cy="320" r="3"/>
-      <circle cx="450" cy="76" r="3"/>
-      <circle cx="812" cy="344" r="3"/>
-    </g>
-
-    <circle cx="228" cy="210" r="194" fill="url(#coreGlow)" filter="url(#wideGlow)">
-      <animate attributeName="opacity" values="0.45;0.8;0.45" dur="3s" repeatCount="indefinite"/>
-    </circle>
-
-    <g transform="translate(228 210)">
-      <circle r="154" fill="#02070d" stroke="#123746" stroke-width="2"/>
-
-      <g>
-        <circle r="144" fill="none" stroke="#00d9ff" stroke-width="3" stroke-dasharray="4 12 38 10" opacity="0.8"/>
-        <circle cx="0" cy="-144" r="5" fill="#eaffff" filter="url(#glow)"/>
-        <circle cx="135" cy="50" r="4" fill="#00d9ff"/>
-        <circle cx="-118" cy="82" r="4" fill="#00d9ff"/>
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="13s" repeatCount="indefinite"/>
-      </g>
-
-      <g opacity="0.7">
-        <circle r="129" fill="none" stroke="#31ecff" stroke-width="1.5" stroke-dasharray="2 9 19 7"/>
-        <path d="M0-136V-121M0 121V136M-136 0H-121M121 0H136M-96-96L-85-85M85 85L96 96M-96 96L-85 85M85-85L96-96" stroke="#b7f9ff" stroke-width="3" stroke-linecap="round"/>
-        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="18s" repeatCount="indefinite"/>
-      </g>
-
-      <g fill="#05151e" stroke="#00d9ff" stroke-width="2">
-        <path d="M-19-112H19L14-83H-14Z"/>
-        <path d="M-19-112H19L14-83H-14Z" transform="rotate(45)"/>
-        <path d="M-19-112H19L14-83H-14Z" transform="rotate(90)"/>
-        <path d="M-19-112H19L14-83H-14Z" transform="rotate(135)"/>
-        <path d="M-19-112H19L14-83H-14Z" transform="rotate(180)"/>
-        <path d="M-19-112H19L14-83H-14Z" transform="rotate(225)"/>
-        <path d="M-19-112H19L14-83H-14Z" transform="rotate(270)"/>
-        <path d="M-19-112H19L14-83H-14Z" transform="rotate(315)"/>
-      </g>
-
-      <circle r="82" fill="#031019" stroke="#83f7ff" stroke-width="2" filter="url(#glow)">
-        <animate attributeName="stroke-opacity" values="0.55;1;0.55" dur="2.2s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="68" fill="url(#core)" opacity="0.95">
-        <animate attributeName="r" values="66;70;66" dur="2.2s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="47" fill="#04131d" stroke="#efffff" stroke-width="2"/>
-
-      <path d="M0-34L31 24H-31Z" fill="none" stroke="#c9fbff" stroke-width="5" stroke-linejoin="round" filter="url(#glow)"/>
-      <text x="0" y="10" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="800" text-anchor="middle" letter-spacing="2">JPL</text>
+    <g fill="#45eeff" filter="url(#cyanGlow)">
+      <circle cx="122" cy="168" r="3"/>
+      <circle cx="112" cy="240" r="3"/>
+      <circle cx="398" cy="63" r="3"/>
+      <circle cx="706" cy="66" r="3"/>
+      <circle cx="704" cy="352" r="3"/>
+      <circle cx="1121" cy="175" r="3"/>
+      <circle cx="1124" cy="242" r="3"/>
     </g>
 
-    <g transform="translate(445 70)" font-family="Segoe UI, Arial, sans-serif">
+    <!-- Left information console -->
+    <g transform="translate(64 55)" font-family="Segoe UI, Arial, sans-serif">
       <g font-family="Consolas, monospace" font-size="13" font-weight="700" letter-spacing="2">
-        <rect width="255" height="30" rx="15" fill="#06212c" stroke="#00d9ff" stroke-opacity="0.7"/>
-        <circle cx="18" cy="15" r="5" fill="#5fffea" filter="url(#glow)">
-          <animate attributeName="opacity" values="0.45;1;0.45" dur="1.6s" repeatCount="indefinite"/>
+        <path d="M0 0H286L302 16L286 32H0L-16 16Z" fill="#11131a" stroke="#efb83e" stroke-width="1.5"/>
+        <circle cx="18" cy="16" r="5" fill="#38edff" filter="url(#cyanGlow)">
+          <animate attributeName="opacity" values="0.35;1;0.35" dur="1.7s" repeatCount="indefinite"/>
         </circle>
-        <text x="34" y="20" fill="#9ff8ff">J.A.R.V.I.S. // ONLINE</text>
+        <text x="34" y="21" fill="#bafaff">J.A.R.V.I.S. // HYBRID HUD</text>
       </g>
 
-      <text x="0" y="88" fill="#7ca9b8" font-size="15" font-weight="700" letter-spacing="6">MARK JPL-26</text>
-      <text x="0" y="143" fill="#f1fdff" font-size="48" font-weight="800" letter-spacing="1">JEROME PRAKASH L</text>
-      <rect x="0" y="162" width="616" height="3" rx="1.5" fill="url(#cyanLine)"/>
-      <text x="0" y="203" fill="#4beeff" font-size="21" font-weight="700" letter-spacing="1">AI · AUTOMATION · FULL-STACK</text>
-      <text x="0" y="238" fill="#a1bdc8" font-size="17">CSE student building intelligent software and real-world systems.</text>
+      <text x="0" y="78" fill="#f2c55f" font-family="Consolas, monospace" font-size="15" font-weight="700" letter-spacing="6">MARK JPL-26</text>
+      <text x="0" y="137" fill="#f7fbff" font-size="50" font-weight="800" letter-spacing="1">JEROME PRAKASH L</text>
+      <rect x="0" y="155" width="680" height="4" rx="2" fill="url(#energyLine)"/>
 
-      <g transform="translate(0 273)" font-family="Consolas, monospace" font-size="13">
-        <rect width="190" height="54" rx="8" fill="#06141d" stroke="#164758"/>
-        <text x="14" y="21" fill="#537d8b">PRIMARY DIRECTIVE</text>
-        <text x="14" y="42" fill="#d6fbff">BUILD THE FUTURE</text>
+      <text x="0" y="200" fill="#36e8ff" font-size="20" font-weight="700" letter-spacing="1">AI · AUTOMATION · FULL-STACK · VISION</text>
+      <text x="0" y="235" fill="#a9bdc6" font-size="17">Engineering intelligent software for practical, real-world missions.</text>
 
-        <g transform="translate(204)">
-          <rect width="154" height="54" rx="8" fill="#06141d" stroke="#164758"/>
-          <text x="14" y="21" fill="#537d8b">LOCATION</text>
-          <text x="14" y="42" fill="#d6fbff">CHENNAI, INDIA</text>
+      <g transform="translate(0 270)" font-family="Consolas, monospace" font-size="12">
+        <path d="M0 0H197L210 13V58H0Z" fill="#0b1017" stroke="#8f1b20" stroke-width="1.5"/>
+        <path d="M0 0H197L210 13" fill="none" stroke="#f0bd4e" stroke-width="2"/>
+        <text x="14" y="23" fill="#8fa6af">PRIMARY DIRECTIVE</text>
+        <text x="14" y="45" fill="#f8d77f" font-weight="700">BUILD THE FUTURE</text>
+
+        <g transform="translate(224)">
+          <path d="M0 0H158L171 13V58H0Z" fill="#08131a" stroke="#14728a" stroke-width="1.5"/>
+          <path d="M0 0H158L171 13" fill="none" stroke="#36e8ff" stroke-width="2"/>
+          <text x="14" y="23" fill="#7899a6">BASE</text>
+          <text x="14" y="45" fill="#d7fbff" font-weight="700">CHENNAI, INDIA</text>
         </g>
 
-        <g transform="translate(372)">
-          <rect width="244" height="54" rx="8" fill="#06141d" stroke="#164758"/>
-          <text x="14" y="21" fill="#537d8b">MISSION STATUS</text>
-          <text x="14" y="42" fill="#5fffea">READY TO COLLABORATE</text>
+        <g transform="translate(409)">
+          <path d="M0 0H244L257 13V58H0Z" fill="#0b1017" stroke="#8f1b20" stroke-width="1.5"/>
+          <path d="M0 0H244L257 13" fill="none" stroke="url(#energyLine)" stroke-width="2"/>
+          <text x="14" y="23" fill="#8fa6af">MISSION STATUS</text>
+          <text x="14" y="45" fill="#49f1ff" font-weight="700">READY TO COLLABORATE</text>
         </g>
+      </g>
+
+      <g transform="translate(0 352)" font-family="Consolas, monospace" font-size="10" letter-spacing="2">
+        <text fill="#874b4f">ARMOR SYSTEM</text>
+        <rect x="106" y="-8" width="166" height="8" rx="4" fill="#251014"/>
+        <rect x="106" y="-8" width="166" height="8" rx="4" fill="url(#armorGold)"/>
+        <text x="286" fill="#f3cc6a">100%</text>
+        <text x="361" fill="#3ecfe4">HOLOGRAM LINK</text>
+        <rect x="480" y="-8" width="148" height="8" rx="4" fill="#09232c"/>
+        <rect x="480" y="-8" width="148" height="8" rx="4" fill="#25dff6"/>
+        <text x="642" fill="#65efff">ONLINE</text>
       </g>
     </g>
 
-    <g transform="translate(1068 116)" font-family="Consolas, monospace" text-anchor="middle">
-      <circle r="45" fill="none" stroke="#103846" stroke-width="9"/>
-      <circle r="45" fill="none" stroke="#00d9ff" stroke-width="9" stroke-linecap="round" stroke-dasharray="283 0" transform="rotate(-90)"/>
-      <text y="-2" fill="#dffcff" font-size="17" font-weight="700">100%</text>
-      <text y="18" fill="#5d8b9b" font-size="9" letter-spacing="1">POWER</text>
-      <text y="76" fill="#4beeff" font-size="11" letter-spacing="2">STABLE</text>
+    <!-- Hybrid Arc Reactor / JARVIS hologram -->
+    <g transform="translate(982 210)">
+      <circle r="190" fill="url(#reactorAura)" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="0.42;0.78;0.42" dur="3s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle r="170" fill="#05070a" stroke="#2f0609" stroke-width="20"/>
+      <circle r="158" fill="none" stroke="url(#armorRed)" stroke-width="14" stroke-dasharray="58 17">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="19s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="143" fill="none" stroke="#f3c65c" stroke-width="3" stroke-dasharray="5 10 34 9" opacity="0.88">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="24s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Red-gold armor vanes -->
+      <g fill="url(#armorGold)" stroke="#8e161c" stroke-width="3" filter="url(#goldGlow)">
+        <path d="M-22-142H22L31-112H-31Z"/>
+        <path d="M-22-142H22L31-112H-31Z" transform="rotate(45)"/>
+        <path d="M-22-142H22L31-112H-31Z" transform="rotate(90)"/>
+        <path d="M-22-142H22L31-112H-31Z" transform="rotate(135)"/>
+        <path d="M-22-142H22L31-112H-31Z" transform="rotate(180)"/>
+        <path d="M-22-142H22L31-112H-31Z" transform="rotate(225)"/>
+        <path d="M-22-142H22L31-112H-31Z" transform="rotate(270)"/>
+        <path d="M-22-142H22L31-112H-31Z" transform="rotate(315)"/>
+      </g>
+
+      <!-- Blue JARVIS rings -->
+      <circle r="107" fill="#040b11" stroke="#36e8ff" stroke-width="3" filter="url(#cyanGlow)"/>
+      <circle r="95" fill="none" stroke="#79f6ff" stroke-width="2" stroke-dasharray="2 8 22 7" opacity="0.82">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="11s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="82" fill="none" stroke="#178ca8" stroke-width="2" stroke-dasharray="38 12">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="15s" repeatCount="indefinite"/>
+      </circle>
+
+      <g fill="none" stroke="#4beeff" stroke-width="1.3" opacity="0.62">
+        <ellipse rx="130" ry="34"/>
+        <ellipse rx="122" ry="23" transform="rotate(18)"/>
+        <ellipse rx="122" ry="23" transform="rotate(-18)"/>
+      </g>
+
+      <circle r="66" fill="url(#arcCore)" filter="url(#cyanGlow)">
+        <animate attributeName="r" values="64;68;64" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M0-53L46-27V27L0 53L-46 27V-27Z" fill="#07131a" stroke="#e9feff" stroke-width="3"/>
+      <path d="M0-42L36-21V21L0 42L-36 21V-21Z" fill="none" stroke="#35e9ff" stroke-width="2" opacity="0.8"/>
+      <text x="0" y="4" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="middle" letter-spacing="3">JPL</text>
+      <text x="0" y="25" fill="#8ff7ff" font-family="Consolas, monospace" font-size="9" text-anchor="middle" letter-spacing="2">CORE 100%</text>
+
+      <g font-family="Consolas, monospace" font-size="9" letter-spacing="2" text-anchor="middle">
+        <text y="-178" fill="#f1c762">IRON HUD</text>
+        <text y="188" fill="#53edff">J.A.R.V.I.S. ONLINE</text>
+      </g>
     </g>
 
+    <!-- Animated holographic scanner -->
+    <rect x="0" y="0" width="1200" height="2" fill="#41eaff" opacity="0.28">
+      <animate attributeName="y" values="10;408;10" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.34;0" dur="8s" repeatCount="indefinite"/>
+    </rect>
   </g>
 
-  <rect x="1.5" y="1.5" width="1197" height="417" rx="24.5" fill="none" stroke="#0a6379" stroke-width="3"/>
+  <rect x="1.5" y="1.5" width="1197" height="417" rx="26.5" fill="none" stroke="#7e1419" stroke-width="3"/>
+  <rect x="6" y="6" width="1188" height="408" rx="23" fill="none" stroke="#27dff7" stroke-width="1" stroke-opacity="0.42"/>
 </svg>
