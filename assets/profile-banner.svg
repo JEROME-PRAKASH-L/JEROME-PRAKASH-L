@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-  <title id="title">Jerome Prakash L — Iron Armor and JARVIS hybrid developer HUD</title>
-  <desc id="desc">A red-and-gold armor-inspired developer banner fused with a blue holographic JARVIS interface, featuring Jerome Prakash L, Mark JPL-26, AI, automation, full-stack development, and computer vision.</desc>
+  <title id="title">Jerome Prakash L — animated Mark JPL-26 Arc Reactor and JARVIS developer HUD</title>
+  <desc id="desc">An upgraded red-and-gold armor interface fused with a cyan JARVIS hologram, featuring live diagnostics, animated energy streams, a rotating Arc Reactor, and Jerome Prakash L's AI, automation, full-stack, and computer-vision mission.</desc>
 
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
@@ -102,6 +102,31 @@
       <circle cx="1124" cy="242" r="3"/>
     </g>
 
+    <!-- Mark JPL-26 live diagnostics -->
+    <g transform="translate(438 17)" font-family="Consolas, monospace" font-size="9" font-weight="700" letter-spacing="1.4">
+      <g>
+        <path d="M0 0H102L111 9V27H0Z" fill="#081017" stroke="#8e171c" stroke-width="1.2"/>
+        <circle cx="12" cy="14" r="3" fill="#f3c65c" filter="url(#goldGlow)">
+          <animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" repeatCount="indefinite"/>
+        </circle>
+        <text x="24" y="18" fill="#f6d37c">CORE 100%</text>
+      </g>
+      <g transform="translate(119)">
+        <path d="M0 0H118L127 9V27H0Z" fill="#07131a" stroke="#1abbd2" stroke-width="1.2"/>
+        <circle cx="12" cy="14" r="3" fill="#42efff" filter="url(#cyanGlow)">
+          <animate attributeName="opacity" values="1;0.25;1" dur="1.1s" repeatCount="indefinite"/>
+        </circle>
+        <text x="24" y="18" fill="#8af6ff">AI LINK ACTIVE</text>
+      </g>
+      <g transform="translate(254)">
+        <path d="M0 0H102L111 9V27H0Z" fill="#081017" stroke="#8e171c" stroke-width="1.2"/>
+        <circle cx="12" cy="14" r="3" fill="#53f2ff" filter="url(#cyanGlow)">
+          <animate attributeName="opacity" values="0.25;1;0.25" dur="1.8s" repeatCount="indefinite"/>
+        </circle>
+        <text x="24" y="18" fill="#d8fbff">BUILD MODE</text>
+      </g>
+    </g>
+
     <!-- Left information console -->
     <g transform="translate(64 55)" font-family="Segoe UI, Arial, sans-serif">
       <g font-family="Consolas, monospace" font-size="13" font-weight="700" letter-spacing="2">
@@ -109,15 +134,19 @@
         <circle cx="18" cy="16" r="5" fill="#38edff" filter="url(#cyanGlow)">
           <animate attributeName="opacity" values="0.35;1;0.35" dur="1.7s" repeatCount="indefinite"/>
         </circle>
-        <text x="34" y="21" fill="#bafaff">J.A.R.V.I.S. // HYBRID HUD</text>
+        <text x="34" y="21" fill="#bafaff">J.A.R.V.I.S. // ONLINE</text>
       </g>
 
       <text x="0" y="78" fill="#f2c55f" font-family="Consolas, monospace" font-size="15" font-weight="700" letter-spacing="6">MARK JPL-26</text>
       <text x="0" y="137" fill="#f7fbff" font-size="50" font-weight="800" letter-spacing="1">JEROME PRAKASH L</text>
       <rect x="0" y="155" width="680" height="4" rx="2" fill="url(#energyLine)"/>
+      <circle cx="0" cy="157" r="4" fill="#eaffff" filter="url(#cyanGlow)">
+        <animate attributeName="cx" values="0;680;680" keyTimes="0;0.84;1" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.78;1" dur="4s" repeatCount="indefinite"/>
+      </circle>
 
       <text x="0" y="200" fill="#36e8ff" font-size="20" font-weight="700" letter-spacing="1">AI · AUTOMATION · FULL-STACK · VISION</text>
-      <text x="0" y="235" fill="#a9bdc6" font-size="17">Engineering intelligent software for practical, real-world missions.</text>
+      <text x="0" y="235" fill="#b6c9d1" font-family="Consolas, monospace" font-size="14" letter-spacing="1">THINK DIFFERENTLY · BUILD DELIBERATELY · SHIP WHAT MATTERS</text>
 
       <g transform="translate(0 270)" font-family="Consolas, monospace" font-size="12">
         <path d="M0 0H197L210 13V58H0Z" fill="#0b1017" stroke="#8f1b20" stroke-width="1.5"/>
@@ -180,6 +209,15 @@
         <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="24s" repeatCount="indefinite"/>
       </circle>
 
+      <!-- Streaming reactor-energy arcs -->
+      <circle r="181" fill="none" stroke="#44edff" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="48 96 12 72" opacity="0.62" filter="url(#cyanGlow)">
+        <animate attributeName="stroke-dashoffset" values="0;-456" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.28;0.78;0.28" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="132" fill="none" stroke="#f4c75d" stroke-width="2" stroke-linecap="round" stroke-dasharray="64 142" opacity="0.7" filter="url(#goldGlow)">
+        <animate attributeName="stroke-dashoffset" values="0;412" dur="5.6s" repeatCount="indefinite"/>
+      </circle>
+
       <!-- Red-gold armor vanes -->
       <g fill="url(#armorGold)" stroke="#8e161c" stroke-width="3" filter="url(#goldGlow)">
         <path d="M-22-142H22L31-112H-31Z"/>
@@ -208,6 +246,14 @@
 
       <!-- Blue JARVIS rings -->
       <circle r="107" fill="#040b11" stroke="#36e8ff" stroke-width="3" filter="url(#cyanGlow)"/>
+      <circle r="70" fill="none" stroke="#77f7ff" stroke-width="2" opacity="0">
+        <animate attributeName="r" values="70;116;116" dur="3.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.55;0;0" dur="3.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="70" fill="none" stroke="#f3c65c" stroke-width="1.5" opacity="0">
+        <animate attributeName="r" values="70;110;110" dur="3.4s" begin="1.7s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.42;0;0" dur="3.4s" begin="1.7s" repeatCount="indefinite"/>
+      </circle>
       <circle r="95" fill="none" stroke="#79f6ff" stroke-width="2" stroke-dasharray="2 8 22 7" opacity="0.82">
         <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="11s" repeatCount="indefinite"/>
       </circle>
@@ -235,8 +281,11 @@
       <circle r="66" fill="url(#arcCore)" filter="url(#cyanGlow)">
         <animate attributeName="r" values="64;68;64" dur="2.4s" repeatCount="indefinite"/>
       </circle>
-      <path d="M0-53L46-27V27L0 53L-46 27V-27Z" fill="#07131a" stroke="#e9feff" stroke-width="3"/>
-      <path d="M0-42L36-21V21L0 42L-36 21V-21Z" fill="none" stroke="#35e9ff" stroke-width="2" opacity="0.8"/>
+      <g>
+        <path d="M0-53L46-27V27L0 53L-46 27V-27Z" fill="#07131a" stroke="#e9feff" stroke-width="3"/>
+        <path d="M0-42L36-21V21L0 42L-36 21V-21Z" fill="none" stroke="#35e9ff" stroke-width="2" opacity="0.8"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="32s" repeatCount="indefinite"/>
+      </g>
       <text x="0" y="4" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="800" text-anchor="middle" letter-spacing="3">JPL</text>
       <text x="0" y="25" fill="#8ff7ff" font-family="Consolas, monospace" font-size="9" text-anchor="middle" letter-spacing="2">CORE 100%</text>
 
@@ -244,6 +293,7 @@
         <text y="-178" fill="#f1c762">IRON HUD · SYSTEMS NOMINAL</text>
         <text y="188" fill="#53edff">J.A.R.V.I.S. · NEURAL LINK ONLINE</text>
       </g>
+
     </g>
 
     <!-- Animated holographic scanner -->
