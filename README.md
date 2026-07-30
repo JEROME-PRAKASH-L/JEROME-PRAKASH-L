@@ -1,20 +1,19 @@
 <p align="center">
-  <img width="100%" src="./assets/profile-banner.svg" alt="Jerome Prakash L — Arc Reactor developer interface" />
+  <img width="100%" src="./assets/profile-banner.svg" alt="Jerome Prakash L — animated Arc Reactor and JARVIS developer interface" />
 </p>
 
 <h1 align="center">JEROME PRAKASH L</h1>
 
+<h3 align="center">THINK DIFFERENTLY&nbsp; // &nbsp;BUILD DELIBERATELY&nbsp; // &nbsp;SHIP WHAT MATTERS</h3>
+
 <p align="center">
-  <strong>TONY STARK–INSPIRED ARC REACTOR DEVELOPER INTERFACE</strong>
+  <strong>CSE Student · AI Agent & Automation Builder · Full-Stack Developer · Computer Vision Explorer</strong>
 </p>
 
 <p align="center">
-  <strong>CSE Student · AI & Automation Builder · Full-Stack Developer · Computer Vision Explorer</strong>
-</p>
-
-<p align="center">
-  <a href="https://jerome-prakash-l.github.io/elonmusk_jp/"><img src="https://img.shields.io/badge/PORTFOLIO-00D9FF?style=for-the-badge&logo=githubpages&logoColor=001017" alt="Portfolio" /></a>
-  <a href="mailto:prakashjerome152@gmail.com"><img src="https://img.shields.io/badge/J.A.R.V.I.S.-ONLINE-5FFFEA?style=for-the-badge&logo=protonmail&logoColor=001017" alt="Email Jerome" /></a>
+  <a href="https://jerome-prakash-l.github.io/elonmusk_jp/"><img src="https://img.shields.io/badge/PORTFOLIO-00D9FF?style=for-the-badge&logo=githubpages&logoColor=001017" alt="Jerome's portfolio" /></a>
+  <a href="https://linkedin.com/in/jerome-prakash-975a15326"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Jerome on LinkedIn" /></a>
+  <a href="mailto:prakashjerome152@gmail.com"><img src="https://img.shields.io/badge/J.A.R.V.I.S.-ONLINE-5FFFEA?style=for-the-badge&logo=gmail&logoColor=001017" alt="Email Jerome" /></a>
   <a href="https://github.com/JEROME-PRAKASH-L?tab=followers"><img src="https://img.shields.io/github/followers/JEROME-PRAKASH-L?label=ALLIES&style=for-the-badge&color=00A8C6" alt="GitHub followers" /></a>
   <img src="https://komarev.com/ghpvc/?username=JEROME-PRAKASH-L&label=REACTOR+SCANS&color=007C9C&style=for-the-badge" alt="Profile views" />
 </p>
@@ -23,40 +22,66 @@
   <code>ARC REACTOR: 100%</code>&nbsp; • &nbsp;<code>J.A.R.V.I.S.: ONLINE</code>&nbsp; • &nbsp;<code>MARK: JPL-26</code>&nbsp; • &nbsp;<code>BASE: CHENNAI</code>
 </p>
 
-> **SYSTEM DIRECTIVE:** Engineer bold ideas into intelligent, useful, and human-centred technology.
+> **INVENTOR'S NOTE:** I do not wait for the future to feel inevitable. I study the problem, prototype the system, and make the idea useful.
 
 ---
 
-## 01 // ARC REACTOR CORE
+## 01 // THE PERSON INSIDE THE ARMOR
 
-```yaml
-callsign: JPL
-identity: Jerome Prakash L
-role: Computer Science Engineering Student
-base: Chennai, India
-
-primary_systems:
-  - Artificial intelligence and practical automation
-  - Full-stack web applications
-  - Real-time computer vision
-  - Data analytics and intelligent workflows
-
-current_upgrades:
-  - Agentic AI and RAG systems
-  - Next.js, Supabase, and backend workflows
-  - Data structures and algorithms
-  - Open-source engineering
-
-mission_status:
-  - Open to software, AI, and data internships
-  - Available for open-source collaboration
+```typescript
+const jerome = {
+  identity: "Jerome Prakash L",
+  role: "Computer Science Engineering Student",
+  base: "Chennai, India",
+  focus: [
+    "AI agents and practical automation",
+    "Full-stack product engineering",
+    "Real-time computer vision",
+    "Data analytics and intelligent workflows"
+  ],
+  currentUpgrades: [
+    "Agentic AI and RAG systems",
+    "Next.js, Supabase, and backend workflows",
+    "Data structures and algorithms",
+    "Open-source engineering"
+  ],
+  longTermMission: "Build useful AI now and grow toward space-tech entrepreneurship",
+  status: "Open to internships, collaboration, and ambitious engineering problems"
+};
 ```
 
-I build systems that connect intelligent software with real human needs—from document analysis and campus assistants to local-service platforms, productivity tools, data solutions, and gesture-controlled interfaces.
+I build systems where **AI meets real human needs**—from document intelligence and campus assistants to local-service platforms, agricultural technology, productivity tools, data products, and gesture-controlled interfaces.
+
+My goal is not to collect technologies. It is to combine the right ones into products that are clear, useful, secure, and ready to be tested by real people.
+
+### Reactor status
+
+| System | Live reading |
+|:---|:---|
+| **Armor Mark** | JPL-26 |
+| **Arc Core** | 100% power |
+| **J.A.R.V.I.S.** | Online |
+| **Neural Link** | Online |
+| **System Health** | Nominal |
+| **Build Mode** | Active |
+| **Primary Directive** | Build the future |
+| **Mission Status** | Ready to collaborate |
 
 ---
 
-## 02 // MARK ARMOR STACK
+## 02 // ENGINEERING PROTOCOLS
+
+| Protocol | What it means in my lab |
+|:---|:---|
+| **Question the default** | A familiar solution is not automatically the best solution. |
+| **Prototype the bold idea** | Turn imagination into something people can see, test, and improve. |
+| **Engineer for usefulness** | Technology matters when it solves a real problem for a real person. |
+| **Learn in public** | Every repository is evidence of progress, not a claim of perfection. |
+| **Own the outcome** | Understand the system, document decisions, and improve what fails. |
+
+---
+
+## 03 // MARK ARMOR STACK
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,js,ts,java,html,css,react,nextjs,tailwind,nodejs,supabase,mongodb,git,github,linux,bash,vscode,arduino&perline=9" alt="Jerome's development technology stack" />
@@ -76,7 +101,7 @@ I build systems that connect intelligent software with real human needs—from d
 
 ---
 
-## 03 // STARK MISSION DEPLOYMENTS
+## 04 // STARK MISSION DEPLOYMENTS
 
 | Mark / Mission | Core capability | Launch |
 |:---|:---|:---:|
@@ -100,7 +125,7 @@ I build systems that connect intelligent software with real human needs—from d
 
 ---
 
-## 04 // FIELD TRAINING RECORDS
+## 05 // FIELD TRAINING RECORDS
 
 ### THIRANEX // Data Analytics Internship
 
@@ -122,7 +147,7 @@ I build systems that connect intelligent software with real human needs—from d
 
 ---
 
-## 05 // LIVE ARC TELEMETRY
+## 06 // LIVE ARC TELEMETRY
 
 <p align="center">
   <img height="180" src="./profile/stats.svg" alt="Jerome's GitHub statistics" />
@@ -152,7 +177,7 @@ I build systems that connect intelligent software with real human needs—from d
 
 ---
 
-## 06 // ACADEMY & SYSTEM UPGRADES
+## 07 // ACADEMY & SYSTEM UPGRADES
 
 **B.E. Computer Science Engineering**  
 DMI College of Engineering, Chennai · August 2024 – August 2028 (expected)
@@ -172,15 +197,20 @@ DMI College of Engineering, Chennai · August 2024 – August 2028 (expected)
 
 ---
 
-## 07 // OPEN COMM CHANNEL
+## 08 // OPEN COMM CHANNEL
 
 <p align="center">
-  <a href="https://linkedin.com/in/jerome-prakash-975a15326"><img src="https://img.shields.io/badge/LINKEDIN-00A8C6?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Jerome on LinkedIn" /></a>
-  <a href="mailto:prakashjerome152@gmail.com"><img src="https://img.shields.io/badge/TRANSMIT-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Send Jerome an email" /></a>
+  <a href="https://jerome-prakash-l.github.io/elonmusk_jp/"><img src="https://img.shields.io/badge/EXPLORE_PORTFOLIO-00D9FF?style=for-the-badge&logo=githubpages&logoColor=001017" alt="Explore Jerome's portfolio" /></a>
+  <a href="https://linkedin.com/in/jerome-prakash-975a15326"><img src="https://img.shields.io/badge/CONNECT-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Jerome on LinkedIn" /></a>
+  <a href="mailto:prakashjerome152@gmail.com"><img src="https://img.shields.io/badge/TRANSMIT-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Send Jerome an email" /></a>
   <a href="https://github.com/JEROME-PRAKASH-L"><img src="https://img.shields.io/badge/GITHUB-06141D?style=for-the-badge&logo=github&logoColor=5FFFEA" alt="Follow Jerome on GitHub" /></a>
 </p>
 
 <p align="center">
-  <strong>Open to internships, collaborations, hackathons, and beginner-friendly open-source missions.</strong><br />
+  <strong>Open to AI/software internships, open-source collaboration, hackathons, and difficult ideas worth prototyping.</strong>
+</p>
+
+<p align="center">
+  <sub>Every repository is a prototype. Every commit is a test. Every useful result earns the next upgrade.</sub><br />
   <sub>Original JPL developer interface inspired by Tony Stark's Arc Reactor energy and futuristic HUD design language.</sub>
 </p>
