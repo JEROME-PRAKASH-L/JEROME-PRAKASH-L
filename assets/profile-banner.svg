@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-  <title id="title">Jerome Prakash L — Mark JPL-26 Identity Forge V7 HUD</title>
-  <desc id="desc">A narrative JARVIS and Arc Reactor developer banner where Jerome Prakash L digitally decodes, receives an energy scan, powers a laser underline, and earns an Identity Verified confirmation before the Idea to Build to Launch mission begins.</desc>
+  <title id="title">Jerome Prakash L — Mark JPL-26 Font Reactor V8 HUD</title>
+  <desc id="desc">A narrative JARVIS and Arc Reactor developer banner where Jerome Prakash L digitally decodes, rotates through futuristic, analysis, and armor typography modes, and synchronizes cyan, white, and gold reactor energy before the Idea to Build to Launch mission completes.</desc>
 
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
@@ -316,11 +316,45 @@
       </g>
 
       <text x="0" y="78" fill="#f2c55f" font-family="Consolas, monospace" font-size="15" font-weight="700" letter-spacing="6">MARK JPL-26</text>
-      <!-- V7 identity forge: decode → energy scan → verified -->
+      <!-- V8 identity forge: decode → font modes → energy scan → verified -->
       <g clip-path="url(#nameReveal)">
-        <text id="nameBase" x="0" y="137" fill="#f7fbff" font-size="50" font-weight="800" letter-spacing="1">
+        <text id="nameBase" x="0" y="137" fill="#f7fbff" font-family="Segoe UI, Arial, sans-serif" font-size="50" font-weight="800" letter-spacing="1" textLength="570" lengthAdjust="spacingAndGlyphs" stroke="#59efff" stroke-opacity="0">
           JEROME PRAKASH L
           <animate attributeName="opacity" values="1;0.12;0.12;1;1" keyTimes="0;0.015;0.13;0.17;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+          <animate attributeName="fill-opacity" values="1;1;0;0;0;1;1" keyTimes="0;0.30;0.34;0.63;0.96;0.99;1" dur="12s" begin="3s" repeatCount="indefinite"/>
+          <animate attributeName="font-weight" values="700;900;800;700" keyTimes="0;0.34;0.68;1" dur="2s" begin="3s" repeatCount="indefinite"/>
+          <animate attributeName="letter-spacing" values="0.5;1.8;0.8;0.5" keyTimes="0;0.34;0.68;1" dur="2s" begin="3s" repeatCount="indefinite"/>
+          <animate attributeName="stroke-opacity" values="0.08;0.34;0.08" dur="2s" begin="3s" repeatCount="indefinite"/>
+        </text>
+
+        <text id="nameStyleJarvis" x="0" y="137" fill="#e9feff" fill-opacity="0" opacity="0" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="48" font-weight="700" letter-spacing="2" textLength="570" lengthAdjust="spacingAndGlyphs" stroke="#53efff" stroke-opacity="0.35" stroke-width="0.5">
+          JEROME PRAKASH L
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.17;0.20;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+          <animate attributeName="fill-opacity" values="0;0;1;1;0;0" keyTimes="0;0.30;0.34;0.63;0.67;1" dur="12s" begin="3s" repeatCount="indefinite"/>
+          <animate attributeName="font-weight" values="600;800;700;600" keyTimes="0;0.34;0.68;1" dur="2s" begin="3s" repeatCount="indefinite"/>
+          <animate attributeName="letter-spacing" values="1.2;3;1.8;1.2" keyTimes="0;0.34;0.68;1" dur="2s" begin="3s" repeatCount="indefinite"/>
+          <animate attributeName="stroke-width" values="0.25;0.9;0.25" dur="2s" begin="3s" repeatCount="indefinite"/>
+        </text>
+
+        <text id="nameStyleArmor" x="0" y="137" fill="#fff1ba" fill-opacity="0" opacity="0" font-family="Georgia, 'Times New Roman', serif" font-size="49" font-weight="700" font-style="italic" letter-spacing="1" textLength="570" lengthAdjust="spacingAndGlyphs" stroke="#f6c453" stroke-opacity="0.46" stroke-width="0.45">
+          JEROME PRAKASH L
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.17;0.20;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+          <animate attributeName="fill-opacity" values="0;0;1;1;0;0" keyTimes="0;0.63;0.67;0.96;0.99;1" dur="12s" begin="3s" repeatCount="indefinite"/>
+          <animate attributeName="font-weight" values="600;800;700;600" keyTimes="0;0.34;0.68;1" dur="2s" begin="3s" repeatCount="indefinite"/>
+          <animate attributeName="letter-spacing" values="0.3;1.7;0.8;0.3" keyTimes="0;0.34;0.68;1" dur="2s" begin="3s" repeatCount="indefinite"/>
+          <animate attributeName="stroke-width" values="0.2;0.85;0.2" dur="2s" begin="3s" repeatCount="indefinite"/>
+        </text>
+
+        <!-- Brief red/cyan holographic ghosts bridge each four-second font change -->
+        <text id="nameModeGhostCyan" x="0" y="137" fill="#4ff2ff" opacity="0" font-family="Consolas, monospace" font-size="49" font-weight="800" textLength="570" lengthAdjust="spacingAndGlyphs" filter="url(#cyanGlow)">
+          JEROME PRAKASH L
+          <animate attributeName="opacity" values="0;0;0.52;0.14;0;0;0.52;0.14;0;0;0.52;0.14;0" keyTimes="0;0.285;0.30;0.325;0.35;0.615;0.63;0.655;0.68;0.945;0.96;0.98;1" dur="12s" begin="3s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="0;0;-3;3;0;0;-3;3;0;0;-3;3;0" keyTimes="0;0.285;0.30;0.325;0.35;0.615;0.63;0.655;0.68;0.945;0.96;0.98;1" dur="12s" begin="3s" repeatCount="indefinite"/>
+        </text>
+        <text id="nameModeGhostRed" x="0" y="137" fill="#ff4054" opacity="0" font-family="Segoe UI, Arial, sans-serif" font-size="50" font-weight="800" textLength="570" lengthAdjust="spacingAndGlyphs">
+          JEROME PRAKASH L
+          <animate attributeName="opacity" values="0;0;0.34;0.08;0;0;0.34;0.08;0;0;0.34;0.08;0" keyTimes="0;0.285;0.30;0.325;0.35;0.615;0.63;0.655;0.68;0.945;0.96;0.98;1" dur="12s" begin="3s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="0;0;3;-2;0;0;3;-2;0;0;3;-2;0" keyTimes="0;0.285;0.30;0.325;0.35;0.615;0.63;0.655;0.68;0.945;0.96;0.98;1" dur="12s" begin="3s" repeatCount="indefinite"/>
         </text>
 
         <g font-size="50" font-weight="800" letter-spacing="1">
@@ -512,6 +546,18 @@
       </circle>
     </g>
 
+    <!-- V8 synchronized surge from the name laser into the reactor -->
+    <path id="nameToCoreSurge" d="M744 212H792L812 210" fill="none" stroke="#ecffff" stroke-width="6" stroke-linecap="round" stroke-dasharray="112" stroke-dashoffset="112" opacity="0" filter="url(#cyanGlow)">
+      <animate attributeName="stroke-dashoffset" values="112;112;0;-112;-112" keyTimes="0;0.22;0.30;0.40;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.20;0.22;0.38;0.42;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+      <animate attributeName="stroke" values="#35eaff;#35eaff;#ffffff;#f6c453;#f6c453" keyTimes="0;0.20;0.28;0.36;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+    </path>
+    <circle id="nameToCoreOrb" r="6" fill="#ffffff" opacity="0" filter="url(#cyanGlow)">
+      <animateMotion path="M744 212H792L812 210" keyPoints="0;0;1;1" keyTimes="0;0.24;0.34;1" calcMode="linear" dur="20s" begin="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.22;0.24;0.34;0.38;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#35eaff;#35eaff;#ffffff;#f6c453;#f6c453" keyTimes="0;0.20;0.28;0.36;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+    </circle>
+
     <!-- Repulsor impact sparks synchronized with reactor overdrive -->
     <g transform="translate(812 210)">
       <g opacity="0" filter="url(#goldGlow)">
@@ -531,8 +577,8 @@
 
     <!-- Hybrid Arc Reactor / JARVIS hologram -->
     <g transform="translate(982 210)">
-      <circle r="190" fill="url(#reactorAura)" filter="url(#softGlow)">
-        <animate attributeName="opacity" values="0.42;0.78;0.42" dur="3s" repeatCount="indefinite"/>
+      <circle r="190" fill="url(#reactorAura)" opacity="0.42" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="0.42;0.82;0.42" dur="2s" begin="3s" repeatCount="indefinite"/>
       </circle>
 
       <!-- Rotating radar sweep -->
@@ -558,6 +604,23 @@
       <circle r="132" fill="none" stroke="#f4c75d" stroke-width="2" stroke-linecap="round" stroke-dasharray="64 142" opacity="0.7" filter="url(#goldGlow)">
         <animate attributeName="stroke-dashoffset" values="0;412" dur="5.6s" repeatCount="indefinite"/>
       </circle>
+
+      <!-- V8 font-mode ring: cyan future → white analysis → gold armor -->
+      <circle id="reactorModeRing" r="151" fill="none" stroke="#35eaff" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 12 42 18" opacity="0" filter="url(#cyanGlow)">
+        <animate attributeName="stroke" values="#35eaff;#35eaff;#ffffff;#ffffff;#f6c453;#f6c453;#35eaff" keyTimes="0;0.30;0.34;0.63;0.67;0.96;1" dur="12s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-dashoffset" values="0;-312" dur="2s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.28;0.88;0.28" dur="2s" begin="3s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Electric energy arcs jumping between the inner rings -->
+      <g id="reactorElectricArcs" fill="none" stroke="#35eaff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity="0" filter="url(#cyanGlow)">
+        <path d="M-62-104L-51-117L-38-108L-24-127L-8-112L8-130L23-111L39-123L62-104"/>
+        <path d="M-62-104L-51-117L-38-108L-24-127L-8-112L8-130L23-111L39-123L62-104" transform="rotate(120)"/>
+        <path d="M-62-104L-51-117L-38-108L-24-127L-8-112L8-130L23-111L39-123L62-104" transform="rotate(240)"/>
+        <animate attributeName="stroke" values="#35eaff;#35eaff;#ffffff;#ffffff;#f6c453;#f6c453;#35eaff" keyTimes="0;0.30;0.34;0.63;0.67;0.96;1" dur="12s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.08;0.9;0.18;0.72;0.08" keyTimes="0;0.22;0.5;0.78;1" dur="2s" begin="3s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" begin="3s" repeatCount="indefinite"/>
+      </g>
 
       <!-- Red-gold armor vanes -->
       <g fill="url(#armorGold)" stroke="#8e161c" stroke-width="3" filter="url(#goldGlow)">
@@ -585,8 +648,36 @@
         <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="5.8s" repeatCount="indefinite"/>
       </g>
 
+      <!-- V8 cyan and gold micro-particle halo -->
+      <g id="reactorCyanParticles" fill="#7af6ff" opacity="0" filter="url(#cyanGlow)">
+        <circle cx="0" cy="-165" r="2.4"/>
+        <circle cx="82" cy="-133" r="1.8"/>
+        <circle cx="146" cy="-58" r="2.2"/>
+        <circle cx="-128" cy="96" r="1.7"/>
+        <circle cx="-62" cy="150" r="2"/>
+        <circle cx="112" cy="112" r="1.6"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.22;1;0.22" dur="2s" begin="3s" repeatCount="indefinite"/>
+      </g>
+      <g id="reactorGoldParticles" fill="#f9d46f" opacity="0" filter="url(#goldGlow)">
+        <circle cx="0" cy="-126" r="2"/>
+        <circle cx="-74" cy="-102" r="1.7"/>
+        <circle cx="-121" cy="36" r="2.2"/>
+        <circle cx="88" cy="91" r="1.8"/>
+        <circle cx="118" cy="-32" r="1.6"/>
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="3.2s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.18;0.9;0.18" dur="2s" begin="3s" repeatCount="indefinite"/>
+      </g>
+
       <!-- Blue JARVIS rings -->
       <circle r="107" fill="#040b11" stroke="#36e8ff" stroke-width="3" filter="url(#cyanGlow)"/>
+
+      <!-- Two-second reactor breathing loop, synchronized after boot -->
+      <circle id="reactorBreath" r="68" fill="none" stroke="#5df2ff" stroke-width="2.5" opacity="0" filter="url(#cyanGlow)">
+        <animate attributeName="r" values="68;112;68" dur="2s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.12;0.58;0.12" dur="2s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="stroke" values="#35eaff;#35eaff;#ffffff;#ffffff;#f6c453;#f6c453;#35eaff" keyTimes="0;0.30;0.34;0.63;0.67;0.96;1" dur="12s" begin="3s" repeatCount="indefinite"/>
+      </circle>
 
       <!-- Arc Reactor overdrive shockwave during the V6 charge phase -->
       <circle r="70" fill="none" stroke="#77f7ff" stroke-width="2" opacity="0">
@@ -636,8 +727,20 @@
         <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="27s" repeatCount="indefinite"/>
       </g>
 
+      <!-- Short radial repulsor burst at POWER 100% -->
+      <g id="repulsorBurst" fill="none" stroke="#fff5c9" stroke-width="3" stroke-linecap="round" opacity="0" filter="url(#goldGlow)">
+        <path d="M0-70V-150M49-49L106-106M70 0H150M49 49L106 106M0 70V150M-49 49L-106 106M-70 0H-150M-49-49L-106-106"/>
+        <animate attributeName="opacity" values="0;0;1;0.18;0;0" keyTimes="0;0.64;0.655;0.68;0.71;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="scale" values="0.35;0.35;1.12;1.45;1.45" keyTimes="0;0.64;0.66;0.71;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+      </g>
+      <circle id="repulsorBurstWave" r="66" fill="none" stroke="#ffffff" stroke-width="3" opacity="0" filter="url(#cyanGlow)">
+        <animate attributeName="r" values="66;66;176;176" keyTimes="0;0.64;0.71;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;0.9;0;0" keyTimes="0;0.64;0.655;0.71;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="stroke" values="#35eaff;#35eaff;#ffffff;#f6c453;#f6c453" keyTimes="0;0.62;0.655;0.70;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+      </circle>
+
       <circle r="66" fill="url(#arcCore)" filter="url(#cyanGlow)">
-        <animate attributeName="r" values="64;68;64" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="66;70;66" dur="2s" begin="3s" repeatCount="indefinite"/>
       </circle>
       <g>
         <path d="M0-53L46-27V27L0 53L-46 27V-27Z" fill="#07131a" stroke="#e9feff" stroke-width="3"/>
