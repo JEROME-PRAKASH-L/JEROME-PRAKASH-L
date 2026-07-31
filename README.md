@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://jerome-prakash-l.github.io/elonmusk_jp/"><img src="https://img.shields.io/badge/PORTFOLIO-00D9FF?style=for-the-badge&logo=githubpages&logoColor=001017" alt="Jerome's portfolio" /></a>
+  <a href="https://jerome-prakash-l.github.io/elonmusk_jp/"><img src="https://img.shields.io/badge/MY_WEBSITE-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=001017" alt="Visit Jerome's website" /></a>
   <a href="https://linkedin.com/in/jerome-prakash-975a15326"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Jerome on LinkedIn" /></a>
   <a href="mailto:prakashjerome152@gmail.com"><img src="https://img.shields.io/badge/J.A.R.V.I.S.-ONLINE-5FFFEA?style=for-the-badge&logo=gmail&logoColor=001017" alt="Email Jerome" /></a>
   <a href="https://github.com/JEROME-PRAKASH-L?tab=followers"><img src="https://img.shields.io/github/followers/JEROME-PRAKASH-L?label=ALLIES&style=for-the-badge&color=00A8C6" alt="GitHub followers" /></a>
