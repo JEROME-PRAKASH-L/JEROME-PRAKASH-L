@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-  <title id="title">Jerome Prakash L — Mark JPL-26 Idea to Build to Launch V6 HUD</title>
-  <desc id="desc">A narrative JARVIS and Arc Reactor developer banner where scrambled text resolves into Think Differently, an idea spark crosses a neural lattice, Prototype Active charges the reactor from zero to full power, and Ship What Matters launches a deployment signal before System Deployed appears.</desc>
+  <title id="title">Jerome Prakash L — Mark JPL-26 Identity Forge V7 HUD</title>
+  <desc id="desc">A narrative JARVIS and Arc Reactor developer banner where Jerome Prakash L digitally decodes, receives an energy scan, powers a laser underline, and earns an Identity Verified confirmation before the Idea to Build to Launch mission begins.</desc>
 
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
@@ -25,6 +25,16 @@
       <stop offset="0.28" stop-color="#f6c453"/>
       <stop offset="0.62" stop-color="#2be7ff"/>
       <stop offset="1" stop-color="#0b6688"/>
+    </linearGradient>
+    <linearGradient id="nameEnergySweep" gradientUnits="userSpaceOnUse" x1="-280" y1="0" x2="-10" y2="0">
+      <stop offset="0" stop-color="#25e9ff" stop-opacity="0"/>
+      <stop offset="0.28" stop-color="#25e9ff" stop-opacity="0.2"/>
+      <stop offset="0.46" stop-color="#73f5ff"/>
+      <stop offset="0.56" stop-color="#ffffff"/>
+      <stop offset="0.7" stop-color="#f6c453"/>
+      <stop offset="1" stop-color="#f6c453" stop-opacity="0"/>
+      <animate attributeName="x1" values="-280;-280;620;620" keyTimes="0;0.12;0.28;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="-10;-10;890;890" keyTimes="0;0.12;0.28;1" dur="20s" begin="3s" repeatCount="indefinite"/>
     </linearGradient>
     <radialGradient id="arcCore" cx="50%" cy="50%" r="50%">
       <stop offset="0" stop-color="#ffffff"/>
@@ -306,12 +316,69 @@
       </g>
 
       <text x="0" y="78" fill="#f2c55f" font-family="Consolas, monospace" font-size="15" font-weight="700" letter-spacing="6">MARK JPL-26</text>
-      <text x="0" y="137" fill="#f7fbff" font-size="50" font-weight="800" letter-spacing="1" clip-path="url(#nameReveal)">JEROME PRAKASH L</text>
+      <!-- V7 identity forge: decode → energy scan → verified -->
+      <g clip-path="url(#nameReveal)">
+        <text id="nameBase" x="0" y="137" fill="#f7fbff" font-size="50" font-weight="800" letter-spacing="1">
+          JEROME PRAKASH L
+          <animate attributeName="opacity" values="1;0.12;0.12;1;1" keyTimes="0;0.015;0.13;0.17;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+        </text>
+
+        <g font-size="50" font-weight="800" letter-spacing="1">
+          <text id="nameDecodeRed" x="0" y="137" fill="#ff5262" opacity="0" textLength="570" lengthAdjust="spacingAndGlyphs">
+            J3R0M3 PR4K45H L
+            <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.01;0.055;0.075;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+            <animate attributeName="x" values="0;-3;4;0;0" keyTimes="0;0.01;0.035;0.075;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+          </text>
+          <text id="nameDecodeCyan" x="0" y="137" fill="#55f3ff" opacity="0" textLength="570" lengthAdjust="spacingAndGlyphs">
+            JER0ME PRAK45H L
+            <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.055;0.07;0.11;0.13;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+            <animate attributeName="x" values="0;0;3;-2;0;0" keyTimes="0;0.055;0.075;0.1;0.13;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+          </text>
+          <text id="nameDecodedGold" x="0" y="137" fill="#f8d77b" opacity="0" textLength="570" lengthAdjust="spacingAndGlyphs">
+            JEROME PRAKASH L
+            <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.11;0.125;0.17;0.21;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+          </text>
+        </g>
+
+        <text id="nameSweepText" x="0" y="137" fill="url(#nameEnergySweep)" font-size="50" font-weight="800" letter-spacing="1" opacity="0" filter="url(#cyanGlow)">
+          JEROME PRAKASH L
+          <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.115;0.13;0.27;0.3;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+        </text>
+
+        <rect id="nameScanBand" x="-24" y="89" width="34" height="61" fill="#32eaff" opacity="0.08">
+          <animate attributeName="x" values="-24;-24;590;590" keyTimes="0;0.12;0.28;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0;0.12;0.12;0;0" keyTimes="0;0.115;0.13;0.27;0.3;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+        </rect>
+        <rect id="nameScanLine" x="-6" y="89" width="3" height="61" fill="#efffff" opacity="0" filter="url(#cyanGlow)">
+          <animate attributeName="x" values="-6;-6;608;608" keyTimes="0;0.12;0.28;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.115;0.13;0.27;0.3;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g id="identityVerified" font-family="Consolas, monospace" opacity="0">
+        <path d="M356 56H636L648 68L636 84H356L344 70Z" fill="#07141a" stroke="#43edff" stroke-width="1.2"/>
+        <circle cx="365" cy="70" r="3.5" fill="#f4c75d" filter="url(#goldGlow)">
+          <animate attributeName="opacity" values="0.35;1;0.35" dur="0.8s" repeatCount="indefinite"/>
+        </circle>
+        <text x="378" y="74" fill="#c8fbff" font-size="11" font-weight="700" letter-spacing="1.5">IDENTITY VERIFIED // JPL-26</text>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.285;0.31;0.46;0.5;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+      </g>
+
       <rect x="0" y="91" width="4" height="56" fill="#eaffff" opacity="0" filter="url(#cyanGlow)">
         <animate attributeName="x" from="0" to="590" dur="2.2s" begin="0s" fill="freeze"/>
         <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.92;1" dur="2.3s" begin="0s" fill="freeze"/>
       </rect>
       <rect x="0" y="155" width="680" height="4" rx="2" fill="url(#energyLine)"/>
+      <path id="nameLaserLine" d="M0 157H680" fill="none" stroke="#edffff" stroke-width="5" stroke-linecap="round" stroke-dasharray="680" stroke-dashoffset="680" opacity="0" filter="url(#cyanGlow)">
+        <animate attributeName="stroke-dashoffset" values="680;680;0;0;-680;-680" keyTimes="0;0.2;0.3;0.34;0.41;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.19;0.21;0.38;0.42;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="stroke" values="#35eaff;#35eaff;#ffffff;#f6c453;#f6c453" keyTimes="0;0.2;0.28;0.36;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+      </path>
+      <circle id="nameLaserOrb" cx="0" cy="157" r="6" fill="#ffffff" opacity="0" filter="url(#cyanGlow)">
+        <animate attributeName="cx" values="0;0;680;680;0" keyTimes="0;0.2;0.3;0.41;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.19;0.21;0.38;0.42;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="fill" values="#35eaff;#35eaff;#ffffff;#f6c453;#f6c453" keyTimes="0;0.2;0.28;0.36;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+      </circle>
       <circle cx="0" cy="157" r="4" fill="#eaffff" filter="url(#cyanGlow)">
         <animate attributeName="cx" values="0;680;680" keyTimes="0;0.84;1" dur="4s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.78;1" dur="4s" repeatCount="indefinite"/>
