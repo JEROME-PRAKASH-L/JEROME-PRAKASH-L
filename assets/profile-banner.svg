@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-  <title id="title">Jerome Prakash L — Mark JPL-26 Silk Flight V10 HUD</title>
-  <desc id="desc">A narrative JARVIS and Arc Reactor developer banner where Jerome Prakash L digitally decodes, rotates through futuristic, analysis, and armor typography modes, and synchronizes cyan, white, and gold reactor energy while silk-smooth eased motion drives a hovering reactor, aurora ribbons, floating holo-hexagons, drifting starfield, shooting stars, armor glints, and comet orbits around the Idea to Build to Launch mission.</desc>
+  <title id="title">Jerome Prakash L — Mark JPL-26 Assembly Protocol V11 HUD</title>
+  <desc id="desc">A narrative JARVIS and Arc Reactor developer banner where armor plates fly in and lock during a suit-up boot, a repair drone welds the plating, an arc-pulse heartbeat sweeps the top rail, and Jerome Prakash L decodes through typography modes while silk-smooth eased motion drives the hovering reactor, aurora ribbons, holo-hexagons, starfield, glints, and comet orbits around the Idea to Build to Launch mission.</desc>
 
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
@@ -173,20 +173,52 @@
       </g>
     </g>
 
-    <!-- Metallic armor shell -->
-    <path d="M0 0H430L378 62H188L150 100H0Z" fill="url(#armorRed)" opacity="0.92"/>
-    <path d="M0 420H462L398 354H212L158 306H0Z" fill="url(#armorRed)" opacity="0.84"/>
-    <path d="M1200 0H902L936 52H1082L1126 98H1200Z" fill="url(#armorRed)" opacity="0.88"/>
-    <path d="M1200 420H875L920 364H1070L1120 310H1200Z" fill="url(#armorRed)" opacity="0.9"/>
-    <path d="M0 102H151L183 70H372" fill="none" stroke="url(#armorGold)" stroke-width="4"/>
-    <path d="M0 306H157L210 355H397" fill="none" stroke="url(#armorGold)" stroke-width="4"/>
-    <path d="M1200 99H1128L1080 53H937" fill="none" stroke="url(#armorGold)" stroke-width="4"/>
-    <path d="M1200 309H1122L1068 364H920" fill="none" stroke="url(#armorGold)" stroke-width="4"/>
+    <!-- Metallic armor shell: V11 suit-up — plates fly in and lock on boot -->
+    <g transform="translate(-470 -130)">
+      <animateTransform attributeName="transform" type="translate" from="-470 -130" to="0 0" dur="0.85s" begin="0.05s" calcMode="spline" keySplines="0.16 1 0.3 1" fill="freeze"/>
+      <path d="M0 0H430L378 62H188L150 100H0Z" fill="url(#armorRed)" opacity="0.92"/>
+      <path d="M0 102H151L183 70H372" fill="none" stroke="url(#armorGold)" stroke-width="4"/>
+    </g>
+    <g transform="translate(480 -130)">
+      <animateTransform attributeName="transform" type="translate" from="480 -130" to="0 0" dur="0.85s" begin="0.3s" calcMode="spline" keySplines="0.16 1 0.3 1" fill="freeze"/>
+      <path d="M1200 0H902L936 52H1082L1126 98H1200Z" fill="url(#armorRed)" opacity="0.88"/>
+      <path d="M1200 99H1128L1080 53H937" fill="none" stroke="url(#armorGold)" stroke-width="4"/>
+    </g>
+    <g transform="translate(-480 150)">
+      <animateTransform attributeName="transform" type="translate" from="-480 150" to="0 0" dur="0.85s" begin="0.55s" calcMode="spline" keySplines="0.16 1 0.3 1" fill="freeze"/>
+      <path d="M0 420H462L398 354H212L158 306H0Z" fill="url(#armorRed)" opacity="0.84"/>
+      <path d="M0 306H157L210 355H397" fill="none" stroke="url(#armorGold)" stroke-width="4"/>
+    </g>
+    <g transform="translate(500 150)">
+      <animateTransform attributeName="transform" type="translate" from="500 150" to="0 0" dur="0.85s" begin="0.8s" calcMode="spline" keySplines="0.16 1 0.3 1" fill="freeze"/>
+      <path d="M1200 420H875L920 364H1070L1120 310H1200Z" fill="url(#armorRed)" opacity="0.9"/>
+      <path d="M1200 309H1122L1068 364H920" fill="none" stroke="url(#armorGold)" stroke-width="4"/>
+    </g>
+
+    <!-- V11 lock flashes as each plate lands -->
+    <g fill="none" stroke="#fff3cf" stroke-width="2.5" filter="url(#goldGlow)">
+      <circle cx="380" cy="60" r="3" opacity="0">
+        <animate attributeName="r" values="3;22" dur="0.45s" begin="0.9s" calcMode="spline" keySplines="0.2 0.7 0.4 1" fill="freeze"/>
+        <animate attributeName="opacity" values="0.9;0" dur="0.45s" begin="0.9s" fill="freeze"/>
+      </circle>
+      <circle cx="936" cy="52" r="3" opacity="0">
+        <animate attributeName="r" values="3;22" dur="0.45s" begin="1.15s" calcMode="spline" keySplines="0.2 0.7 0.4 1" fill="freeze"/>
+        <animate attributeName="opacity" values="0.9;0" dur="0.45s" begin="1.15s" fill="freeze"/>
+      </circle>
+      <circle cx="398" cy="354" r="3" opacity="0">
+        <animate attributeName="r" values="3;22" dur="0.45s" begin="1.4s" calcMode="spline" keySplines="0.2 0.7 0.4 1" fill="freeze"/>
+        <animate attributeName="opacity" values="0.9;0" dur="0.45s" begin="1.4s" fill="freeze"/>
+      </circle>
+      <circle cx="920" cy="364" r="3" opacity="0">
+        <animate attributeName="r" values="3;22" dur="0.45s" begin="1.65s" calcMode="spline" keySplines="0.2 0.7 0.4 1" fill="freeze"/>
+        <animate attributeName="opacity" values="0.9;0" dur="0.45s" begin="1.65s" fill="freeze"/>
+      </circle>
+    </g>
 
     <!-- V9 specular glints sweeping across the armor plating -->
     <g clip-path="url(#armorTopLeft)" opacity="0.8">
       <rect x="-180" y="-30" width="76" height="180" fill="url(#armorGlint)" transform="skewX(-24)">
-        <animate attributeName="x" values="-180;-180;560;560" keyTimes="0;0.04;0.2;1" dur="12s" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" repeatCount="indefinite"/>
+        <animate attributeName="x" values="-180;-180;560;560" keyTimes="0;0.04;0.2;1" dur="12s" begin="2s" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" repeatCount="indefinite"/>
       </rect>
     </g>
     <g clip-path="url(#armorTopRight)" opacity="0.8">
@@ -198,6 +230,28 @@
       <rect x="-320" y="280" width="76" height="180" fill="url(#armorGlint)" transform="skewX(-24)">
         <animate attributeName="x" values="-320;-320;700;700" keyTimes="0;0.04;0.2;1" dur="12s" begin="8s" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" repeatCount="indefinite"/>
       </rect>
+    </g>
+
+    <!-- V11 JARVIS repair drone patrolling and welding the top-left plating -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.2s" fill="freeze"/>
+      <g>
+        <path d="M7 0L-5 4.5L-2 0L-5 -4.5Z" fill="#8df7ff" filter="url(#cyanGlow)"/>
+        <circle cx="-7" cy="0" r="1.4" fill="#f5c75d" filter="url(#goldGlow)">
+          <animate attributeName="opacity" values="1;0.3;1" dur="0.5s" repeatCount="indefinite"/>
+        </circle>
+        <animateMotion path="M408 14L240 18L196 52L348 40Z" keyPoints="0;0.38;0.38;0.506;0.851;0.851;1" keyTimes="0;0.16;0.30;0.38;0.56;0.72;1" calcMode="spline" keySplines="0.42 0 0.58 1;0 0 1 1;0.42 0 0.58 1;0.42 0 0.58 1;0 0 1 1;0.42 0 0.58 1" rotate="auto" dur="15s" begin="2.2s" repeatCount="indefinite"/>
+      </g>
+      <g transform="translate(240 18)">
+        <path d="M-5 2L-9 7M0 3L1 9M4 1L8 6" stroke="#ffe9a6" stroke-width="1.6" stroke-linecap="round" fill="none" filter="url(#goldGlow)"/>
+        <circle r="2" fill="#fff6dc"/>
+        <animate attributeName="opacity" values="0;0;1;0.25;0.9;0.2;1;0;0" keyTimes="0;0.17;0.185;0.21;0.235;0.26;0.28;0.30;1" dur="15s" begin="2.2s" repeatCount="indefinite"/>
+      </g>
+      <g transform="translate(348 40)">
+        <path d="M-5 2L-9 7M0 3L1 9M4 1L8 6" stroke="#ffe9a6" stroke-width="1.6" stroke-linecap="round" fill="none" filter="url(#goldGlow)"/>
+        <circle r="2" fill="#fff6dc"/>
+        <animate attributeName="opacity" values="0;0;1;0.25;0.9;0.2;1;0;0" keyTimes="0;0.57;0.585;0.61;0.635;0.66;0.69;0.72;1" dur="15s" begin="2.2s" repeatCount="indefinite"/>
+      </g>
     </g>
 
     <!-- Blue holographic circuit field -->
@@ -913,6 +967,15 @@
       <path d="M-8-5L11 0L-8 5L-3 0Z" fill="#efffff" stroke="#f5c85f" stroke-width="1"/>
       <animateMotion path="M982 210C1035 177 1102 119 1210 74" keyPoints="0;0;1;1" keyTimes="0;0.68;0.82;1" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" rotate="auto" dur="20s" begin="3s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.66;0.69;0.82;0.85;1" dur="20s" begin="3s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- V11 arc-pulse heartbeat: the reactor is a heart, traced live on the top rail -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="2s" fill="freeze"/>
+      <path d="M446 9H540L546 6L552 12L558 2L564 16L570 7L576 9H700L706 6L712 12L718 2L724 16L730 7L736 9H886" fill="none" stroke="#155d6f" stroke-width="1.2" opacity="0.55"/>
+      <path d="M446 9H540L546 6L552 12L558 2L564 16L570 7L576 9H700L706 6L712 12L718 2L724 16L730 7L736 9H886" fill="none" stroke="#5df2ff" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="46 574" filter="url(#cyanGlow)">
+        <animate attributeName="stroke-dashoffset" values="620;91" dur="3s" begin="2s" repeatCount="indefinite"/>
+      </path>
     </g>
 
     <!-- Animated holographic scanner -->

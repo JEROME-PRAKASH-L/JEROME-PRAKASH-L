@@ -68,6 +68,9 @@ My goal is not to collect technologies. It is to combine the right ones into pro
 | **Neural Link** | Online |
 | **Sky Telemetry** | Live — starfield, glints, and comet orbits streaming |
 | **Flight Dampers** | Silk-smooth easing online — hover, aurora, and holo-hexagons stabilized |
+| **Suit Assembly** | Armor plates lock on boot — assembly protocol V11 |
+| **Repair Drones** | Deployed — hull weld inspection active |
+| **Arc Pulse** | Steady — reactor heartbeat traced on the top rail |
 | **System Health** | Nominal |
 | **Build Mode** | Active |
 | **Primary Directive** | Build the future |
