@@ -91,12 +91,20 @@ My goal is not to collect technologies. It is to combine the right ones into pro
 | **Learn in public** | Every repository is evidence of progress, not a claim of perfection. |
 | **Own the outcome** | Understand the system, document decisions, and improve what fails. |
 
+<p align="center">
+  <img width="100%" src="./assets/jarvis-quotes.svg" alt="J.A.R.V.I.S. archive console cycling Jerome's engineering philosophy" />
+</p>
+
 <p align="center"><img src="./assets/energy-divider.svg" width="100%" alt="" /></p>
 
 ## 03 // MARK ARMOR STACK
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,js,ts,java,html,css,react,nextjs,tailwind,nodejs,supabase,mongodb,git,github,linux,bash,vscode,arduino&perline=9" alt="Jerome's development technology stack" />
+</p>
+
+<p align="center">
+  <img src="./assets/skill-radar.svg" alt="Animated capability radar showing Jerome's focus levels across AI agents, full-stack, data, embedded, and computer vision" />
 </p>
 
 | Armor module | Equipped systems |
@@ -178,6 +186,14 @@ My goal is not to collect technologies. It is to combine the right ones into pro
   </picture>
 </p>
 
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=JEROME-PRAKASH-L&theme=algolia&no-frame=true&no-bg=true&row=1&column=6&margin-w=8" alt="GitHub trophy wall" />
+</p>
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=JEROME-PRAKASH-L&bg_color=06141d&color=5fffea&line=00d9ff&point=f6c453&area=true&hide_border=true&custom_title=ARC%20OUTPUT%20//%2030-DAY%20CONTRIBUTION%20WAVEFORM" alt="30-day contribution activity graph" />
+</p>
+
 <details>
 <summary><strong>HOLOGRAPHIC MAP // Animated 3D contributions</strong></summary>
 
@@ -209,7 +225,19 @@ DMI College of Engineering, Chennai · August 2024 – August 2028 (expected)
 
 <p align="center"><img src="./assets/energy-divider.svg" width="100%" alt="" /></p>
 
-## 08 // OPEN COMM CHANNEL
+## 08 // FLIGHT PLAN
+
+| Phase | Mission objective | Status |
+|:---|:---|:---:|
+| **NOW** | Agentic AI and RAG systems · SkillBridge Local marketplace · DSA depth | `IN PROGRESS` |
+| **NEXT** | Open-source contributions · AI/software internship · ship Uzhavar 360 | `QUEUED` |
+| **HORIZON** | Build useful AI at scale and grow toward space-tech entrepreneurship | `LOCKED ON` |
+
+> **J.A.R.V.I.S.:** "Course plotted, sir. All waypoints hold steady."
+
+<p align="center"><img src="./assets/energy-divider.svg" width="100%" alt="" /></p>
+
+## 09 // OPEN COMM CHANNEL
 
 <p align="center">
   <a href="https://jerome-prakash-l.github.io/elonmusk_jp/"><img src="https://img.shields.io/badge/EXPLORE_PORTFOLIO-00D9FF?style=for-the-badge&logo=githubpages&logoColor=001017" alt="Explore Jerome's portfolio" /></a>
