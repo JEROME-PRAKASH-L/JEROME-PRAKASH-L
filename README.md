@@ -12,6 +12,7 @@
 
 <p align="center">
   <a href="https://jerome-prakash-l.github.io/elonmusk_jp/"><img src="https://img.shields.io/badge/MY_WEBSITE-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=001017" alt="Visit Jerome's website" /></a>
+  <a href="https://jerome-prakash-l.github.io/elonmusk_jp/Jerome_Prakash_L_Resume.pdf"><img src="https://img.shields.io/badge/RESUME-F6C453?style=for-the-badge&logo=readdotcv&logoColor=001017" alt="Download Jerome's resume" /></a>
   <a href="https://linkedin.com/in/jerome-prakash-975a15326"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Jerome on LinkedIn" /></a>
   <a href="mailto:prakashjerome152@gmail.com"><img src="https://img.shields.io/badge/J.A.R.V.I.S.-ONLINE-5FFFEA?style=for-the-badge&logo=gmail&logoColor=001017" alt="Email Jerome" /></a>
   <a href="https://github.com/JEROME-PRAKASH-L?tab=followers"><img src="https://img.shields.io/github/followers/JEROME-PRAKASH-L?label=ALLIES&style=for-the-badge&color=00A8C6" alt="GitHub followers" /></a>
@@ -123,6 +124,27 @@ My goal is not to collect technologies. It is to combine the right ones into pro
 
 ## 04 // STARK MISSION DEPLOYMENTS
 
+<p align="center">
+  <a href="https://github.com/JEROME-PRAKASH-L/AI-Powered-Document-Analysis-Extraction"><img width="47%" src="./assets/cards/doc-analysis.svg" alt="AI-Powered Document Analysis Extraction — intelligent document analysis and structured extraction" /></a>
+  <a href="https://github.com/JEROME-PRAKASH-L/skillbridge-local"><img width="47%" src="./assets/cards/skillbridge.svg" alt="SkillBridge Local — Next.js and Supabase marketplace connecting local businesses with students" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/JEROME-PRAKASH-L/uzhavar-360"><img width="47%" src="./assets/cards/uzhavar.svg" alt="Uzhavar 360 — digital platform supporting farmers through accessible services" /></a>
+  <a href="https://github.com/JEROME-PRAKASH-L/Al-Campus-Copilot"><img width="47%" src="./assets/cards/campus-copilot.svg" alt="AI Campus Copilot — campus AI assistant for student workflows and academic support" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/JEROME-PRAKASH-L/Make-Me-Productive---Youtube-Focus-Buddy"><img width="47%" src="./assets/cards/make-productive.svg" alt="Make Me Productive — browser focus companion for intentional YouTube use" /></a>
+  <a href="https://github.com/JEROME-PRAKASH-L/Hand-Gesture-Mouse-Control-Project"><img width="47%" src="./assets/cards/gesture-lab.svg" alt="Gesture Control Lab — hand-tracking mouse and volume control experiments" /></a>
+</p>
+
+<p align="center">
+  <a href="https://skillbridge-local-chennai.netlify.app"><img src="https://img.shields.io/badge/SKILLBRIDGE-LIVE_DEMO-5FFFEA?style=for-the-badge&logo=netlify&logoColor=001017" alt="SkillBridge Local live demo" /></a>
+  <a href="https://github.com/JEROME-PRAKASH-L/Volume-Control-project-"><img src="https://img.shields.io/badge/GESTURE_VOLUME-CONTROL-00A8C6?style=for-the-badge&logo=opencv&logoColor=white" alt="Gesture volume control project" /></a>
+</p>
+
+<details>
+<summary><strong>MISSION DOSSIER // Capability breakdown</strong></summary>
+
 | Mark / Mission | Core capability | Launch |
 |:---|:---|:---:|
 | **AI-Powered Document Analysis Extraction** | TypeScript workflow for intelligent document analysis and structured extraction | **[OPEN →](https://github.com/JEROME-PRAKASH-L/AI-Powered-Document-Analysis-Extraction)** |
@@ -131,6 +153,24 @@ My goal is not to collect technologies. It is to combine the right ones into pro
 | **AI Campus Copilot** | Campus-focused AI assistant concepts, student workflows, and academic support | **[OPEN →](https://github.com/JEROME-PRAKASH-L/Al-Campus-Copilot)** |
 | **Make Me Productive** | Browser focus companion for more intentional YouTube use | **[OPEN →](https://github.com/JEROME-PRAKASH-L/Make-Me-Productive---Youtube-Focus-Buddy)** |
 | **Gesture Control Lab** | Hand-gesture mouse control, volume control, drawing, and interaction experiments | **[MOUSE →](https://github.com/JEROME-PRAKASH-L/Hand-Gesture-Mouse-Control-Project)** · **[VOLUME →](https://github.com/JEROME-PRAKASH-L/Volume-Control-project-)** |
+
+</details>
+
+<!-- ============================ DEMO MEDIA ============================
+     Ready-to-use markup. Record the clips listed in assets/demos/README.md,
+     drop the files into assets/demos/, then delete these comment markers.
+
+<p align="center">
+  <img width="80%" src="./assets/demos/gesture-mouse-control.gif" alt="Hand gesture mouse control demo: moving and clicking the cursor with hand tracking" />
+  <br /><sub><strong>GESTURE CONTROL LAB</strong> — real-time hand tracking driving the cursor</sub>
+</p>
+
+<p align="center">
+  <img width="80%" src="./assets/demos/skillbridge-local.gif" alt="SkillBridge Local demo: browsing and posting a local student task" />
+  <br /><sub><strong>SKILLBRIDGE LOCAL</strong> — posting and claiming a scoped student task</sub>
+</p>
+
+====================================================================== -->
 
 <details>
 <summary><strong>J.A.R.V.I.S. BUILD LOG // Active development</strong></summary>
@@ -187,10 +227,6 @@ My goal is not to collect technologies. It is to combine the right ones into pro
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=JEROME-PRAKASH-L&theme=algolia&no-frame=true&no-bg=true&row=1&column=6&margin-w=8" alt="GitHub trophy wall" />
-</p>
-
-<p align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=JEROME-PRAKASH-L&bg_color=06141d&color=5fffea&line=00d9ff&point=f6c453&area=true&hide_border=true&custom_title=ARC%20OUTPUT%20//%2030-DAY%20CONTRIBUTION%20WAVEFORM" alt="30-day contribution activity graph" />
 </p>
 
@@ -241,6 +277,7 @@ DMI College of Engineering, Chennai · August 2024 – August 2028 (expected)
 
 <p align="center">
   <a href="https://jerome-prakash-l.github.io/elonmusk_jp/"><img src="https://img.shields.io/badge/EXPLORE_PORTFOLIO-00D9FF?style=for-the-badge&logo=githubpages&logoColor=001017" alt="Explore Jerome's portfolio" /></a>
+  <a href="https://jerome-prakash-l.github.io/elonmusk_jp/Jerome_Prakash_L_Resume.pdf"><img src="https://img.shields.io/badge/DOWNLOAD_RESUME-F6C453?style=for-the-badge&logo=readdotcv&logoColor=001017" alt="Download Jerome's resume" /></a>
   <a href="https://linkedin.com/in/jerome-prakash-975a15326"><img src="https://img.shields.io/badge/CONNECT-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Jerome on LinkedIn" /></a>
   <a href="mailto:prakashjerome152@gmail.com"><img src="https://img.shields.io/badge/TRANSMIT-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Send Jerome an email" /></a>
   <a href="https://github.com/JEROME-PRAKASH-L"><img src="https://img.shields.io/badge/GITHUB-06141D?style=for-the-badge&logo=github&logoColor=5FFFEA" alt="Follow Jerome on GitHub" /></a>
@@ -249,6 +286,24 @@ DMI College of Engineering, Chennai · August 2024 – August 2028 (expected)
 <p align="center">
   <strong>Open to AI/software internships, open-source collaboration, hackathons, and difficult ideas worth prototyping.</strong>
 </p>
+
+<p align="center"><img src="./assets/energy-divider.svg" width="100%" alt="" /></p>
+
+## 10 // BUILD NOTES
+
+The banner above is not a template or a GIF. It is a single hand-authored SVG —
+**1,110 lines and 271 declarative SMIL animations**, no JavaScript, no external assets,
+with independent loops for the story sequence, suit-up, repair drone, blueprint X-ray,
+nanite self-heal, and aux-power brownout.
+
+<p align="center">
+  <a href="./ARCHITECTURE.md"><img src="https://img.shields.io/badge/READ_THE_BUILD_NOTES-06141D?style=for-the-badge&logo=svg&logoColor=5FFFEA" alt="Read the architecture notes for this profile" /></a>
+</p>
+
+**[ARCHITECTURE.md](./ARCHITECTURE.md)** covers the animation timeline design, the easing
+curve system, the `keySplines` mismatch that silently kills SMIL animations, and how each
+beat is verified by driving the SMIL clock with `setCurrentTime` instead of guessing at
+screenshots.
 
 <p align="center">
   <sub>Every repository is a prototype. Every commit is a test. Every useful result earns the next upgrade.</sub><br />
