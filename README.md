@@ -23,12 +23,12 @@
 </p>
 
 <p align="center">
-  <code>ARC REACTOR: 100%</code>&nbsp; • &nbsp;<code>J.A.R.V.I.S.: ONLINE</code>&nbsp; • &nbsp;<code>MARK: JPL-26</code>&nbsp; • &nbsp;<code>BASE: CHENNAI</code>
+  <code>ARC REACTOR: 100%</code>&nbsp; • &nbsp;<code>J.A.R.V.I.S.: ONLINE</code>&nbsp; • &nbsp;<code>MARK: JPL-26</code>&nbsp; • &nbsp;<code>SKY TELEMETRY: LIVE</code>&nbsp; • &nbsp;<code>BASE: CHENNAI</code>
 </p>
 
 > **INVENTOR'S NOTE:** I do not wait for the future to feel inevitable. I study the problem, prototype the system, and make the idea useful.
 
----
+<p align="center"><img src="./assets/energy-divider.svg" width="100%" alt="" /></p>
 
 ## 01 // THE PERSON INSIDE THE ARMOR
 
@@ -66,12 +66,14 @@ My goal is not to collect technologies. It is to combine the right ones into pro
 | **Arc Core** | 100% power |
 | **J.A.R.V.I.S.** | Online |
 | **Neural Link** | Online |
+| **Sky Telemetry** | Live — starfield, glints, and comet orbits streaming |
+| **Flight Dampers** | Silk-smooth easing online — hover, aurora, and holo-hexagons stabilized |
 | **System Health** | Nominal |
 | **Build Mode** | Active |
 | **Primary Directive** | Build the future |
 | **Mission Status** | Ready to collaborate |
 
----
+<p align="center"><img src="./assets/energy-divider.svg" width="100%" alt="" /></p>
 
 ## 02 // ENGINEERING PROTOCOLS
 
@@ -83,7 +85,7 @@ My goal is not to collect technologies. It is to combine the right ones into pro
 | **Learn in public** | Every repository is evidence of progress, not a claim of perfection. |
 | **Own the outcome** | Understand the system, document decisions, and improve what fails. |
 
----
+<p align="center"><img src="./assets/energy-divider.svg" width="100%" alt="" /></p>
 
 ## 03 // MARK ARMOR STACK
 
@@ -103,7 +105,7 @@ My goal is not to collect technologies. It is to combine the right ones into pro
 | **Flight Console** | Git · GitHub · Linux · Bash · VS Code · CLI tooling |
 | **AI Copilots** | Codex · Claude · GitHub Copilot · ChatGPT |
 
----
+<p align="center"><img src="./assets/energy-divider.svg" width="100%" alt="" /></p>
 
 ## 04 // STARK MISSION DEPLOYMENTS
 
@@ -127,7 +129,7 @@ My goal is not to collect technologies. It is to combine the right ones into pro
 
 </details>
 
----
+<p align="center"><img src="./assets/energy-divider.svg" width="100%" alt="" /></p>
 
 ## 05 // FIELD TRAINING RECORDS
 
@@ -149,7 +151,7 @@ My goal is not to collect technologies. It is to combine the right ones into pro
 - Built hands-on circuits from logic gates through a 4-bit ALU.
 - Created LED-control and sensor-driven temperature-alert prototypes.
 
----
+<p align="center"><img src="./assets/energy-divider.svg" width="100%" alt="" /></p>
 
 ## 06 // LIVE ARC TELEMETRY
 
@@ -179,7 +181,7 @@ My goal is not to collect technologies. It is to combine the right ones into pro
 
 </details>
 
----
+<p align="center"><img src="./assets/energy-divider.svg" width="100%" alt="" /></p>
 
 ## 07 // ACADEMY & SYSTEM UPGRADES
 
@@ -199,7 +201,7 @@ DMI College of Engineering, Chennai · August 2024 – August 2028 (expected)
 
 </details>
 
----
+<p align="center"><img src="./assets/energy-divider.svg" width="100%" alt="" /></p>
 
 ## 08 // OPEN COMM CHANNEL
 
