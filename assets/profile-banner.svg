@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-  <title id="title">Jerome Prakash L — Mark JPL-26 Sky Telemetry V9 HUD</title>
-  <desc id="desc">A narrative JARVIS and Arc Reactor developer banner where Jerome Prakash L digitally decodes, rotates through futuristic, analysis, and armor typography modes, and synchronizes cyan, white, and gold reactor energy while a drifting starfield, shooting stars, armor glints, and comet orbits stream live sky telemetry around the Idea to Build to Launch mission.</desc>
+  <title id="title">Jerome Prakash L — Mark JPL-26 Silk Flight V10 HUD</title>
+  <desc id="desc">A narrative JARVIS and Arc Reactor developer banner where Jerome Prakash L digitally decodes, rotates through futuristic, analysis, and armor typography modes, and synchronizes cyan, white, and gold reactor energy while silk-smooth eased motion drives a hovering reactor, aurora ribbons, floating holo-hexagons, drifting starfield, shooting stars, armor glints, and comet orbits around the Idea to Build to Launch mission.</desc>
 
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
@@ -109,7 +109,7 @@
 
     <!-- V9 drifting starfield with slow parallax and twinkle -->
     <g>
-      <animateTransform attributeName="transform" type="translate" values="0 0;-16 3;0 0" dur="34s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;-16 3;0 0" dur="34s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
       <g fill="#9fe9ff">
         <circle cx="332" cy="58" r="1.4"><animate attributeName="opacity" values="0.15;0.75;0.15" dur="3.1s" repeatCount="indefinite"/></circle>
         <circle cx="558" cy="96" r="1.2"><animate attributeName="opacity" values="0.7;0.12;0.7" dur="4.4s" begin="0.6s" repeatCount="indefinite"/></circle>
@@ -140,6 +140,39 @@
       <animate attributeName="opacity" values="0;0.8;0;0" keyTimes="0;0.025;0.06;1" dur="23s" begin="13s" repeatCount="indefinite"/>
     </g>
 
+    <!-- V10 aurora energy ribbons flowing through the upper sky -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M300 100C480 84 700 122 900 96" stroke="url(#energyLine)" stroke-width="1.3" stroke-dasharray="42 30" opacity="0.26">
+        <animate attributeName="stroke-dashoffset" values="0;-288" dur="9s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.14;0.36;0.14" dur="6s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+      </path>
+      <path d="M320 110C500 96 690 130 880 106" stroke="#f1c762" stroke-width="1" stroke-dasharray="26 40" opacity="0.14">
+        <animate attributeName="stroke-dashoffset" values="0;264" dur="11s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.08;0.24;0.08" dur="7s" begin="1.5s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- V10 floating holo-hexagons with silk-eased bobbing -->
+    <g fill="none" stroke="#2fd7ef">
+      <g transform="translate(620 106)" opacity="0.4">
+        <path d="M0-15L13-7.5V7.5L0 15L-13 7.5V-7.5Z" stroke-width="1.4"/>
+        <circle r="2" fill="#2fd7ef" stroke="none"/>
+        <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -7;0 0" dur="5.6s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.24;0.5;0.24" dur="5.6s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+      </g>
+      <g transform="translate(838 158)" opacity="0.35">
+        <path d="M0-10L8.7-5V5L0 10L-8.7 5V-5Z" stroke-width="1.2"/>
+        <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 6;0 0" dur="6.8s" begin="1.2s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.2;0.45;0.2" dur="6.8s" begin="1.2s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+      </g>
+      <g transform="translate(795 330)" opacity="0.35" stroke="#e8bd55">
+        <path d="M0-12L10.4-6V6L0 12L-10.4 6V-6Z" stroke-width="1.2"/>
+        <circle r="1.6" fill="#e8bd55" stroke="none"/>
+        <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -5;0 0" dur="7.4s" begin="2.3s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.18;0.42;0.18" dur="7.4s" begin="2.3s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+      </g>
+    </g>
+
     <!-- Metallic armor shell -->
     <path d="M0 0H430L378 62H188L150 100H0Z" fill="url(#armorRed)" opacity="0.92"/>
     <path d="M0 420H462L398 354H212L158 306H0Z" fill="url(#armorRed)" opacity="0.84"/>
@@ -153,17 +186,17 @@
     <!-- V9 specular glints sweeping across the armor plating -->
     <g clip-path="url(#armorTopLeft)" opacity="0.8">
       <rect x="-180" y="-30" width="76" height="180" fill="url(#armorGlint)" transform="skewX(-24)">
-        <animate attributeName="x" values="-180;-180;560;560" keyTimes="0;0.04;0.2;1" dur="12s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="-180;-180;560;560" keyTimes="0;0.04;0.2;1" dur="12s" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" repeatCount="indefinite"/>
       </rect>
     </g>
     <g clip-path="url(#armorTopRight)" opacity="0.8">
       <rect x="1300" y="-30" width="76" height="180" fill="url(#armorGlint)" transform="skewX(24)">
-        <animate attributeName="x" values="1300;1300;780;780" keyTimes="0;0.04;0.2;1" dur="12s" begin="4s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="1300;1300;780;780" keyTimes="0;0.04;0.2;1" dur="12s" begin="4s" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" repeatCount="indefinite"/>
       </rect>
     </g>
     <g clip-path="url(#armorBottomLeft)" opacity="0.7">
       <rect x="-320" y="280" width="76" height="180" fill="url(#armorGlint)" transform="skewX(-24)">
-        <animate attributeName="x" values="-320;-320;700;700" keyTimes="0;0.04;0.2;1" dur="12s" begin="8s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="-320;-320;700;700" keyTimes="0;0.04;0.2;1" dur="12s" begin="8s" calcMode="spline" keySplines="0 0 1 1;0.42 0 0.58 1;0 0 1 1" repeatCount="indefinite"/>
       </rect>
     </g>
 
@@ -293,40 +326,40 @@
       </g>
       <g fill="#45efff" filter="url(#cyanGlow)" opacity="0.9">
         <rect x="160" y="11" width="4" height="10" rx="2">
-          <animate attributeName="y" values="11;4;9;11" dur="1.35s" repeatCount="indefinite"/>
-          <animate attributeName="height" values="10;24;14;10" dur="1.35s" repeatCount="indefinite"/>
+          <animate attributeName="y" values="11;4;9;11" dur="1.35s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+          <animate attributeName="height" values="10;24;14;10" dur="1.35s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
         </rect>
         <rect x="180" y="7" width="4" height="18" rx="2">
-          <animate attributeName="y" values="7;12;3;7" dur="1.7s" begin="0.15s" repeatCount="indefinite"/>
-          <animate attributeName="height" values="18;8;26;18" dur="1.7s" begin="0.15s" repeatCount="indefinite"/>
+          <animate attributeName="y" values="7;12;3;7" dur="1.7s" begin="0.15s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+          <animate attributeName="height" values="18;8;26;18" dur="1.7s" begin="0.15s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
         </rect>
         <rect x="200" y="10" width="4" height="12" rx="2">
-          <animate attributeName="y" values="10;2;8;10" dur="1.2s" begin="0.3s" repeatCount="indefinite"/>
-          <animate attributeName="height" values="12;28;16;12" dur="1.2s" begin="0.3s" repeatCount="indefinite"/>
+          <animate attributeName="y" values="10;2;8;10" dur="1.2s" begin="0.3s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+          <animate attributeName="height" values="12;28;16;12" dur="1.2s" begin="0.3s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
         </rect>
         <rect x="220" y="5" width="4" height="22" rx="2">
-          <animate attributeName="y" values="5;11;1;5" dur="1.85s" begin="0.05s" repeatCount="indefinite"/>
-          <animate attributeName="height" values="22;10;30;22" dur="1.85s" begin="0.05s" repeatCount="indefinite"/>
+          <animate attributeName="y" values="5;11;1;5" dur="1.85s" begin="0.05s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+          <animate attributeName="height" values="22;10;30;22" dur="1.85s" begin="0.05s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
         </rect>
         <rect x="240" y="9" width="4" height="14" rx="2">
-          <animate attributeName="y" values="9;3;12;9" dur="1.45s" begin="0.4s" repeatCount="indefinite"/>
-          <animate attributeName="height" values="14;26;8;14" dur="1.45s" begin="0.4s" repeatCount="indefinite"/>
+          <animate attributeName="y" values="9;3;12;9" dur="1.45s" begin="0.4s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+          <animate attributeName="height" values="14;26;8;14" dur="1.45s" begin="0.4s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
         </rect>
         <rect x="260" y="4" width="4" height="24" rx="2">
-          <animate attributeName="y" values="4;9;2;4" dur="1.6s" begin="0.2s" repeatCount="indefinite"/>
-          <animate attributeName="height" values="24;14;28;24" dur="1.6s" begin="0.2s" repeatCount="indefinite"/>
+          <animate attributeName="y" values="4;9;2;4" dur="1.6s" begin="0.2s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+          <animate attributeName="height" values="24;14;28;24" dur="1.6s" begin="0.2s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
         </rect>
         <rect x="280" y="10" width="4" height="12" rx="2">
-          <animate attributeName="y" values="10;1;7;10" dur="1.25s" begin="0.1s" repeatCount="indefinite"/>
-          <animate attributeName="height" values="12;30;18;12" dur="1.25s" begin="0.1s" repeatCount="indefinite"/>
+          <animate attributeName="y" values="10;1;7;10" dur="1.25s" begin="0.1s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+          <animate attributeName="height" values="12;30;18;12" dur="1.25s" begin="0.1s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
         </rect>
         <rect x="300" y="7" width="4" height="18" rx="2">
-          <animate attributeName="y" values="7;12;4;7" dur="1.75s" begin="0.35s" repeatCount="indefinite"/>
-          <animate attributeName="height" values="18;8;24;18" dur="1.75s" begin="0.35s" repeatCount="indefinite"/>
+          <animate attributeName="y" values="7;12;4;7" dur="1.75s" begin="0.35s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+          <animate attributeName="height" values="18;8;24;18" dur="1.75s" begin="0.35s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
         </rect>
         <rect x="320" y="11" width="4" height="10" rx="2">
-          <animate attributeName="y" values="11;5;9;11" dur="1.4s" begin="0.25s" repeatCount="indefinite"/>
-          <animate attributeName="height" values="10;22;14;10" dur="1.4s" begin="0.25s" repeatCount="indefinite"/>
+          <animate attributeName="y" values="11;5;9;11" dur="1.4s" begin="0.25s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+          <animate attributeName="height" values="10;22;14;10" dur="1.4s" begin="0.25s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
         </rect>
       </g>
       <circle cx="344" cy="16" r="3" fill="#4df3ff" filter="url(#cyanGlow)">
@@ -572,13 +605,13 @@
         <text fill="#874b4f">ARMOR SYSTEM</text>
         <rect x="106" y="-8" width="166" height="8" rx="4" fill="#251014"/>
         <rect x="106" y="-8" width="166" height="8" rx="4" fill="url(#armorGold)">
-          <animate attributeName="width" values="30;166;148;166" dur="5s" repeatCount="indefinite"/>
+          <animate attributeName="width" values="30;166;148;166" dur="5s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
         </rect>
         <text x="286" fill="#f3cc6a">100%</text>
         <text x="361" fill="#3ecfe4">HOLOGRAM LINK</text>
         <rect x="480" y="-8" width="148" height="8" rx="4" fill="#09232c"/>
         <rect x="480" y="-8" width="148" height="8" rx="4" fill="#25dff6">
-          <animate attributeName="width" values="18;148;128;148" dur="4.2s" begin="0.6s" repeatCount="indefinite"/>
+          <animate attributeName="width" values="18;148;128;148" dur="4.2s" begin="0.6s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
         </rect>
         <text x="642" fill="#65efff">ONLINE</text>
         <circle cx="716" cy="-4" r="3.5" fill="#4df4ff" filter="url(#cyanGlow)">
@@ -644,8 +677,10 @@
 
     <!-- Hybrid Arc Reactor / JARVIS hologram -->
     <g transform="translate(982 210)">
+      <!-- V10 silk hover: the whole reactor gently floats on eased thrust -->
+      <animateTransform attributeName="transform" type="translate" additive="sum" values="0 0;0 -3;0 0" dur="6s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
       <circle r="190" fill="url(#reactorAura)" opacity="0.42" filter="url(#softGlow)">
-        <animate attributeName="opacity" values="0.42;0.82;0.42" dur="2s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.42;0.82;0.42" dur="2s" begin="3s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
       </circle>
 
       <!-- Rotating radar sweep -->
@@ -715,6 +750,15 @@
         <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="5.8s" repeatCount="indefinite"/>
       </g>
 
+      <!-- V10 eased gimbal flare: an orbiting glow that accelerates and glides -->
+      <g>
+        <circle cx="0" cy="-120" r="5" fill="#bdf9ff" opacity="0.7" filter="url(#cyanGlow)">
+          <animate attributeName="opacity" values="0.3;0.85;0.3" dur="3s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+          <animate attributeName="r" values="4;6;4" dur="3s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+        </circle>
+        <animateTransform attributeName="transform" type="rotate" values="0;140;220;360" keyTimes="0;0.35;0.65;1" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1" dur="9s" repeatCount="indefinite"/>
+      </g>
+
       <!-- V8 cyan and gold micro-particle halo -->
       <g id="reactorCyanParticles" fill="#7af6ff" opacity="0" filter="url(#cyanGlow)">
         <circle cx="0" cy="-165" r="2.4"/>
@@ -741,8 +785,8 @@
 
       <!-- Two-second reactor breathing loop, synchronized after boot -->
       <circle id="reactorBreath" r="68" fill="none" stroke="#5df2ff" stroke-width="2.5" opacity="0" filter="url(#cyanGlow)">
-        <animate attributeName="r" values="68;112;68" dur="2s" begin="3s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.12;0.58;0.12" dur="2s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="68;112;68" dur="2s" begin="3s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.12;0.58;0.12" dur="2s" begin="3s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
         <animate attributeName="stroke" values="#35eaff;#35eaff;#ffffff;#ffffff;#f6c453;#f6c453;#35eaff" keyTimes="0;0.30;0.34;0.63;0.67;0.96;1" dur="12s" begin="3s" repeatCount="indefinite"/>
       </circle>
 
@@ -818,7 +862,7 @@
       </circle>
 
       <circle r="66" fill="url(#arcCore)" filter="url(#cyanGlow)">
-        <animate attributeName="r" values="66;70;66" dur="2s" begin="3s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="66;70;66" dur="2s" begin="3s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
       </circle>
       <g>
         <path d="M0-53L46-27V27L0 53L-46 27V-27Z" fill="#07131a" stroke="#e9feff" stroke-width="3"/>
@@ -873,8 +917,8 @@
 
     <!-- Animated holographic scanner -->
     <rect x="0" y="0" width="1200" height="2" fill="#41eaff" opacity="0.28">
-      <animate attributeName="y" values="10;408;10" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.34;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="10;408;10" dur="8s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.34;0" dur="8s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
     </rect>
 
     <!-- Moving telemetry pulses -->

@@ -67,6 +67,7 @@ My goal is not to collect technologies. It is to combine the right ones into pro
 | **J.A.R.V.I.S.** | Online |
 | **Neural Link** | Online |
 | **Sky Telemetry** | Live — starfield, glints, and comet orbits streaming |
+| **Flight Dampers** | Silk-smooth easing online — hover, aurora, and holo-hexagons stabilized |
 | **System Health** | Nominal |
 | **Build Mode** | Active |
 | **Primary Directive** | Build the future |

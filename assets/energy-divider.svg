@@ -19,7 +19,7 @@
   </defs>
 
   <rect x="10" y="11" width="1180" height="2" rx="1" fill="url(#dividerLine)" opacity="0.75">
-    <animate attributeName="opacity" values="0.55;0.9;0.55" dur="3.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.55;0.9;0.55" dur="3.4s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
   </rect>
 
   <path d="M20 12H560" stroke="#3ae8ff" stroke-width="2" stroke-linecap="round" stroke-dasharray="26 514" opacity="0.85" filter="url(#dividerGlow)">
@@ -33,13 +33,13 @@
     <animate attributeName="stroke" values="#3ae8ff;#5fffea;#f6c453;#3ae8ff" dur="6s" repeatCount="indefinite"/>
   </path>
   <circle cx="600" cy="12" r="2.2" fill="#5fffea" filter="url(#dividerGlow)">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.6s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
   </circle>
 
   <circle cx="577" cy="12" r="1.6" fill="#3ae8ff">
-    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.2s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
   </circle>
   <circle cx="623" cy="12" r="1.6" fill="#f6c453">
-    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.2s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
   </circle>
 </svg>
