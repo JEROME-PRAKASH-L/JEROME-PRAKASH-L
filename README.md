@@ -71,6 +71,9 @@ My goal is not to collect technologies. It is to combine the right ones into pro
 | **Suit Assembly** | Armor plates lock on boot — assembly protocol V11 |
 | **Repair Drones** | Deployed — hull weld inspection active |
 | **Arc Pulse** | Steady — reactor heartbeat traced on the top rail |
+| **Schematic Mode** | X-ray blueprint sweep — MK-26 dimensions on record |
+| **Nanite Swarm** | Standing by — hull breaches sealed automatically |
+| **Aux Power** | Armed — reroute holds the grid through a brownout |
 | **System Health** | Nominal |
 | **Build Mode** | Active |
 | **Primary Directive** | Build the future |
