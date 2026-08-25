@@ -25,13 +25,20 @@ jobs:
       - name: Prepare card directory
         run: mkdir -p profile
 
+      # The default GITHUB_TOKEN is scoped to this repository, so cross-repo
+      # queries (commit search, private repos) fail with "Resource not
+      # accessible by integration". Add a classic PAT with `read:user` as the
+      # README_CARDS_TOKEN secret to widen the stats, then append
+      # `&include_all_commits=true` (and `&count_private=true`) to the options
+      # below. Without the secret the cards still render, counting public
+      # contributions only.
       - name: Generate GitHub stats card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&rank_icon=github&title_color=00f5d4&text_color=c9d1d9&icon_color=7b61ff&bg_color=0d1117&border_color=30363d
+          options: username=${{ github.repository_owner }}&show_icons=true&rank_icon=github&title_color=00f5d4&text_color=c9d1d9&icon_color=7b61ff&bg_color=0d1117&border_color=30363d
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.README_CARDS_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Generate top languages card
         uses: readme-tools/github-readme-stats-action@v1
@@ -39,7 +46,21 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&title_color=00f5d4&text_color=c9d1d9&icon_color=7b61ff&bg_color=0d1117&border_color=30363d
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.README_CARDS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Fail if a card rendered an error
+        run: |
+          for card in profile/stats.svg profile/top-langs.svg; do
+            if [ ! -f "$card" ]; then
+              echo "::error::$card was not generated"
+              exit 1
+            fi
+            if grep -q "Something went wrong" "$card"; then
+              echo "::error file=$card::Card rendered an error instead of stats:"
+              grep -o "Something went wrong[^<]*" "$card" || true
+              exit 1
+            fi
+          done
 
       - name: Commit refreshed cards
         run: |

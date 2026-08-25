@@ -10,10 +10,13 @@ on:
   push:
     branches:
       - main
-      - claude/github-readme-setup-uwu91c
 
 permissions:
   contents: write
+
+concurrency:
+  group: 3d-contrib
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -34,5 +37,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile-3d-contrib
-          git commit -m "chore: update 3D contribution graph" || echo "No changes to commit"
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "chore: update 3D contribution graph"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
