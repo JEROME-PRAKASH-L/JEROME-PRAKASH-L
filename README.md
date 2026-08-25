@@ -156,7 +156,10 @@ My goal is not to collect technologies. It is to combine the right ones into pro
 ## 06 // LIVE ARC TELEMETRY
 
 <p align="center">
-  <img height="180" src="./profile/stats.svg" alt="Jerome's GitHub statistics" />
+  <!-- Served from the public endpoint because the stats card cannot be generated with the
+       repo-scoped GITHUB_TOKEN. Add the README_CARDS_TOKEN secret and switch this back to
+       ./profile/stats.svg to self-host it. See .github/workflows/readme-cards.yml -->
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=JEROME-PRAKASH-L&show_icons=true&include_all_commits=true&rank_icon=github&title_color=00f5d4&text_color=c9d1d9&icon_color=7b61ff&bg_color=0d1117&border_color=30363d" alt="Jerome's GitHub statistics" />
   <img height="180" src="./profile/top-langs.svg" alt="Jerome's most-used languages across public repositories" />
 </p>
 
