@@ -26,9 +26,10 @@ jobs:
       # There is no card option that avoids it — the query always asks for
       # stargazers. To generate the stats card here, add a classic PAT with
       # `public_repo` + `read:user` as the README_CARDS_TOKEN secret; the step
-      # below is skipped until then, and the README reads the stats card from
-      # the public endpoint instead. The top-languages card only needs public
-      # repository listings, so it works with the default token.
+      # below is skipped until then, and the README omits the card (the public
+      # github-readme-stats instance is not a usable fallback — it currently
+      # returns 503 DEPLOYMENT_PAUSED). The top-languages card only needs
+      # public repository listings, so it works with the default token.
       HAS_CARDS_PAT: ${{ secrets.README_CARDS_TOKEN != '' }}
     steps:
       - name: Check out profile repository
@@ -40,8 +41,8 @@ jobs:
       - name: Report stats card status
         if: env.HAS_CARDS_PAT != 'true'
         run: |
-          echo "::notice::README_CARDS_TOKEN is not set, so the stats card is not generated here." \
-               "The README reads it from the public endpoint. Add the secret to self-host it."
+          echo "::notice::README_CARDS_TOKEN is not set, so the stats card is not generated" \
+               "and the README omits it. Add the secret to restore the card." 
 
       - name: Generate GitHub stats card
         if: env.HAS_CARDS_PAT == 'true'

@@ -156,10 +156,21 @@ My goal is not to collect technologies. It is to combine the right ones into pro
 ## 06 // LIVE ARC TELEMETRY
 
 <p align="center">
-  <!-- Served from the public endpoint because the stats card cannot be generated with the
-       repo-scoped GITHUB_TOKEN. Add the README_CARDS_TOKEN secret and switch this back to
-       ./profile/stats.svg to self-host it. See .github/workflows/readme-cards.yml -->
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=JEROME-PRAKASH-L&show_icons=true&include_all_commits=true&rank_icon=github&title_color=00f5d4&text_color=c9d1d9&icon_color=7b61ff&bg_color=0d1117&border_color=30363d" alt="Jerome's GitHub statistics" />
+  <!--
+    The GitHub stats card is intentionally absent, because neither way of producing it
+    works right now:
+
+      1. Generating it in Actions fails with the default GITHUB_TOKEN. The card's query
+         reads stargazers across every repository the owner has, and a repo-scoped token
+         is refused ("Resource not accessible by integration"). No card option avoids it.
+      2. The public github-readme-stats.vercel.app instance returns 503 DEPLOYMENT_PAUSED.
+
+    To restore the card, add a classic PAT with `public_repo` + `read:user` as the
+    README_CARDS_TOKEN repository secret. .github/workflows/readme-cards.yml then
+    generates profile/stats.svg on the next run, and this line goes back here:
+
+    <img height="180" src="./profile/stats.svg" alt="Jerome's GitHub statistics" />
+  -->
   <img height="180" src="./profile/top-langs.svg" alt="Jerome's most-used languages across public repositories" />
 </p>
 
