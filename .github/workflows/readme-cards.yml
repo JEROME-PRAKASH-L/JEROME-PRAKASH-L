@@ -33,7 +33,7 @@ jobs:
       HAS_CARDS_PAT: ${{ secrets.README_CARDS_TOKEN != '' }}
     steps:
       - name: Check out profile repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Prepare card directory
         run: mkdir -p profile
