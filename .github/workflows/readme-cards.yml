@@ -18,20 +18,40 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    env:
+      # The stats card's GraphQL query reads stargazers across every repository
+      # the user owns. The default GITHUB_TOKEN is an installation token scoped
+      # to this repository, so those fields come back FORBIDDEN ("Resource not
+      # accessible by integration") and the card renders as an error image.
+      # There is no card option that avoids it — the query always asks for
+      # stargazers. To generate the stats card here, add a classic PAT with
+      # `public_repo` + `read:user` as the README_CARDS_TOKEN secret; the step
+      # below is skipped until then, and the README omits the card (the public
+      # github-readme-stats instance is not a usable fallback — it currently
+      # returns 503 DEPLOYMENT_PAUSED). The top-languages card only needs
+      # public repository listings, so it works with the default token.
+      HAS_CARDS_PAT: ${{ secrets.README_CARDS_TOKEN != '' }}
     steps:
       - name: Check out profile repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Prepare card directory
         run: mkdir -p profile
 
+      - name: Report stats card status
+        if: env.HAS_CARDS_PAT != 'true'
+        run: |
+          echo "::notice::README_CARDS_TOKEN is not set, so the stats card is not generated" \
+               "and the README omits it. Add the secret to restore the card." 
+
       - name: Generate GitHub stats card
+        if: env.HAS_CARDS_PAT == 'true'
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&rank_icon=github&title_color=00f5d4&text_color=c9d1d9&icon_color=7b61ff&bg_color=0d1117&border_color=30363d
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.README_CARDS_TOKEN }}
 
       - name: Generate top languages card
         uses: readme-tools/github-readme-stats-action@v1
@@ -39,14 +59,35 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&title_color=00f5d4&text_color=c9d1d9&icon_color=7b61ff&bg_color=0d1117&border_color=30363d
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.README_CARDS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      # A failed card is still written to disk as a valid SVG that reads
+      # "Something went wrong!". Without this check it would be committed and
+      # served on the profile page.
+      - name: Fail if a card rendered an error
+        run: |
+          cards="profile/top-langs.svg"
+          if [ "$HAS_CARDS_PAT" = "true" ]; then
+            cards="$cards profile/stats.svg"
+          fi
+          for card in $cards; do
+            if [ ! -f "$card" ]; then
+              echo "::error::$card was not generated"
+              exit 1
+            fi
+            if grep -q "Something went wrong" "$card"; then
+              echo "::error file=$card::Card rendered an error instead of stats:"
+              grep -o "Something went wrong[^<]*" "$card" || true
+              exit 1
+            fi
+          done
 
       - name: Commit refreshed cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/stats.svg profile/top-langs.svg
-          git diff --cached --quiet && exit 0
+          git add profile
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "chore: refresh README cards"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
