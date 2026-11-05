@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="J.A.R.V.I.S. quote archive cycling Jerome's engineering philosophy">
+  <defs>
+    <linearGradient id="qFrame" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7b1117"/>
+      <stop offset="0.35" stop-color="#f6c453"/>
+      <stop offset="0.65" stop-color="#2be7ff"/>
+      <stop offset="1" stop-color="#0b6688"/>
+    </linearGradient>
+    <filter id="qGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="14" y="10" width="1172" height="130" rx="14" fill="#060b11"/>
+  <rect x="14" y="10" width="1172" height="130" rx="14" fill="none" stroke="#123342" stroke-width="1.4"/>
+  <path d="M14 40V24A14 14 0 0 1 28 10H44M1156 10H1172A14 14 0 0 1 1186 24V40M1186 120V126A14 14 0 0 1 1172 140H1156M44 140H28A14 14 0 0 1 14 126V120" fill="none" stroke="url(#qFrame)" stroke-width="3" stroke-linecap="round"/>
+
+  <g font-family="Consolas, monospace" font-size="10" font-weight="700" letter-spacing="2">
+    <text x="46" y="34" fill="#f2c55f">J.A.R.V.I.S. // ARCHIVE</text>
+    <circle cx="230" cy="30" r="3" fill="#42efff" filter="url(#qGlow)">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" repeatCount="indefinite"/>
+    </circle>
+    <text x="1154" y="34" fill="#3d7c8c" text-anchor="end">INVENTOR PROTOCOLS</text>
+  </g>
+
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="21" font-style="italic" text-anchor="middle">
+    <text x="562" y="55" fill="#f6c453" font-size="30" font-family="Georgia, serif">&#8220;</text>
+    <text x="600" y="86" fill="#d8fbff" opacity="1">
+      I do not wait for the future to feel inevitable — I prototype it.
+      <animate attributeName="opacity" values="1;1;0;0;0;1" keyTimes="0;0.23;0.25;0.96;0.98;1" dur="24s" repeatCount="indefinite"/>
+    </text>
+    <text x="600" y="86" fill="#d8fbff" opacity="0">
+      Every repository is a prototype. Every commit is a test.
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.23;0.25;0.48;0.50;1" dur="24s" repeatCount="indefinite"/>
+    </text>
+    <text x="600" y="86" fill="#d8fbff" opacity="0">
+      Technology matters when it solves a real problem for a real person.
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.48;0.50;0.73;0.75;1" dur="24s" repeatCount="indefinite"/>
+    </text>
+    <text x="600" y="86" fill="#d8fbff" opacity="0">
+      Build useful AI now. Grow toward the stars.
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.73;0.75;0.96;0.98;1" dur="24s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <g fill="#1c4b5c">
+    <circle cx="573" cy="120" r="3.2">
+      <animate attributeName="fill" values="#5fffea;#5fffea;#1c4b5c;#1c4b5c;#5fffea" keyTimes="0;0.24;0.26;0.97;1" dur="24s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="591" cy="120" r="3.2">
+      <animate attributeName="fill" values="#1c4b5c;#1c4b5c;#5fffea;#5fffea;#1c4b5c;#1c4b5c" keyTimes="0;0.24;0.26;0.49;0.51;1" dur="24s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="609" cy="120" r="3.2">
+      <animate attributeName="fill" values="#1c4b5c;#1c4b5c;#5fffea;#5fffea;#1c4b5c;#1c4b5c" keyTimes="0;0.49;0.51;0.74;0.76;1" dur="24s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="627" cy="120" r="3.2">
+      <animate attributeName="fill" values="#1c4b5c;#1c4b5c;#5fffea;#5fffea;#1c4b5c" keyTimes="0;0.74;0.76;0.97;1" dur="24s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <path d="M46 120H540" stroke="#123342" stroke-width="1.4"/>
+  <path d="M660 120H1154" stroke="#123342" stroke-width="1.4"/>
+  <path d="M46 120H540" stroke="#2be7ff" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="20 474" opacity="0.8" filter="url(#qGlow)">
+    <animate attributeName="stroke-dashoffset" values="494;0" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <path d="M1154 120H660" stroke="#f6c453" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="20 474" opacity="0.8" filter="url(#qGlow)">
+    <animate attributeName="stroke-dashoffset" values="494;0" dur="5s" begin="0.5s" repeatCount="indefinite"/>
+  </path>
+</svg>
