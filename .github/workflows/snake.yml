@@ -10,7 +10,6 @@ on:
   push:
     branches:
       - main
-      - claude/github-readme-setup-uwu91c
 
 permissions:
   contents: write

@@ -156,7 +156,21 @@ My goal is not to collect technologies. It is to combine the right ones into pro
 ## 06 // LIVE ARC TELEMETRY
 
 <p align="center">
-  <img height="180" src="./profile/stats.svg" alt="Jerome's GitHub statistics" />
+  <!--
+    The GitHub stats card is intentionally absent, because neither way of producing it
+    works right now:
+
+      1. Generating it in Actions fails with the default GITHUB_TOKEN. The card's query
+         reads stargazers across every repository the owner has, and a repo-scoped token
+         is refused ("Resource not accessible by integration"). No card option avoids it.
+      2. The public github-readme-stats.vercel.app instance returns 503 DEPLOYMENT_PAUSED.
+
+    To restore the card, add a classic PAT with `public_repo` + `read:user` as the
+    README_CARDS_TOKEN repository secret. .github/workflows/readme-cards.yml then
+    generates profile/stats.svg on the next run, and this line goes back here:
+
+    <img height="180" src="./profile/stats.svg" alt="Jerome's GitHub statistics" />
+  -->
   <img height="180" src="./profile/top-langs.svg" alt="Jerome's most-used languages across public repositories" />
 </p>
 
